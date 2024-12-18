@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import  Countdown  from '@/component/countdown';
+import  Countdown  from './countdown';
 
 function App() {
+  const [inputValue, setInputValue] = useState("");
 
   const quiz = [
     {
@@ -23,26 +24,27 @@ function App() {
     }
   ]
 
+  const handlesubmit = (e: React.FormEvent<HTMLFormElement>) =>{
+    e.preventDefault();
+  }
+
+  const handlechenge = (e: React.ChangeEvent<HTMLInputElement>) =>{
+    setInputValue(e.target.value);
+  }
+
   const listItems = quiz.map((quizIndex) =>
     <li>{quizIndex.question}</li>
   );
 
-  let count = 0;
-  const interval = setInterval(() => {
-    count += 1;
-    console.log(`インターバルのカウント: ${count}`);
-    if (count >= 3) {
-      clearInterval(interval);
-    }
-  }, 10000);
-
   return (
     <div className="App">
       <h3>
-        <h1>ゲームタイマー</h1>
         <Countdown />
         <h2 className="text"></h2>
         <ul>{listItems}</ul>
+        <form onSubmit={(e) => handlesubmit(e)} > 
+          <input type="text" onChange={(e) => handlechenge(e)} className="inputText"/>
+        </form>
       </h3>
     </div>
   );
