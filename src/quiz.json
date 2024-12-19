@@ -1,10 +1,10 @@
 {
     "quiz":[
         {
-            "id" : 1,
-            "explanation" : "和訳せよ",
-            "question" : "message",
-            "ansewer" : ["メッセージ", "めっせーじ","messe-ji","messe-zi","伝言","でんごん","denngonn","dengon"]
+          "id" : 1,
+          "explanation" : "和訳せよ",
+          "question" : "message",
+          "ansewer" : ["伝言","でんごん","denngonn","dengon","連絡事項","れんらくじこう","renrakujikou","rennrakujikou"]
         },
         {
           "id": 2,
@@ -16,49 +16,49 @@
           "id": 3,
           "explanation" : "和訳せよ",
           "question": "consensus",
-          "ansewer": ["コンセンサス", "こんせんさす", "konsensasu","konnsennsasu","一致","いっち","itti", "合意","ごうい","goui"]
+          "ansewer": ["一致","いっち","itti", "合意","ごうい","goui"]
         },
         {
           "id": 4,
           "explanation" : "和訳せよ",
           "question": "spark",
-          "ansewer": ["火花","ひばな","hibana","きらめき","kiramenki"]
+          "ansewer": ["火花","ひばな","hibana","きらめき","kiramenki","スパーク","すぱーく","supa-ku","火花","ひばな","hibana"]
         },
         {
           "id": 5,
           "explanation" : "和訳せよ",
           "question": "speak",
-          "ansewer": ["話す","はなす","hanasu","しゃべる","shaberu"]
+          "ansewer": ["話す","はなす","hanasu","しゃべる","shaberu","言う","いう","iu","言葉","ことば","kotoba"]
         },
         {
           "id": 6,
           "explanation" : "和訳せよ",
           "question": "success",
-          "ansewer": ["成功","せいこう","seikou"]
+          "ansewer": ["成功","せいこう","seikou","成果","せいか","seika"]
         },
         {
           "id": 7,
           "explanation" : "和訳せよ",
           "question": "decay",
-          "ansewer": ["腐る","くさる","kusaru"]
+          "ansewer": ["腐る","くさる","kusaru","朽ちる","くちる","kuchiru","腐敗","ふはい","fuhai"]
         },
         {
           "id": 8,
           "explanation" : "英訳せよ",
           "question": "作る",
-          "ansewer": ["make up","Make Up","make","Make"]
+          "ansewer": ["make up","Make Up","make","Make","create","Create","build","Build"]
         },
         {
           "id": 9,
           "explanation" : "英訳せよ",
           "question": "破壊",
-          "ansewer": ["break","Break","destruction","やぶる","yaburu"]
+          "ansewer": ["break","Break","destruction","Destruction","destroy","Destroy"]
         },
         {
           "id": 10,
           "explanation" : "英訳せよ",
           "question": "虚数",
-          "ansewer": ["imaginary part","Imaginary Part"]
+          "ansewer": ["imaginary","Imaginary"]
         },
         {
           "id": 11,
@@ -76,7 +76,7 @@
           "id": 13,
           "explanation" : "英訳せよ",
           "question": "説明",
-          "ansewer": ["Description","explanation","Explanation"]
+          "ansewer": ["Description","description","explanation","Explanation"]
         },
         {
           "id": 14,
@@ -87,8 +87,38 @@
         {
             "id" : 15,
             "explanation" : "和訳せよ",
-            "question" : "area",
-            "ansewer" : ["エリア","えりあ","eria"]
+            "question" : "fix",
+            "ansewer" : ["修正する","しゅうせいする","shuuseisuru","shuseisuru","直す","なおす","naosu"]
+        },
+        {
+            "id" : 16,
+            "explanation" : "和訳せよ",
+            "question" : "rise",
+            "ansewer" : ["上昇","じょうしょう","joushou","jousyou","昇る","のぼる","noboru"]
+        },
+        {
+            "id" : 17,
+            "explanation" : "英訳せよ",
+            "question" : "本能",
+            "ansewer" : ["instinct","Instinct"]
+        },
+        {
+            "id" : 18,
+            "explanation" : "英訳せよ",
+            "question" : "巨大な",
+            "ansewer" : ["huge","Huge"]
+        },
+        {
+            "id" : 19,
+            "explanation" : "英訳せよ",
+            "question" : "ごみ",
+            "ansewer" : ["trash","Trash","garbage","Garbage"]
+        },
+        {
+            "id" : 20,
+            "explanation" : "和訳せよ",
+            "question" : "add",
+            "ansewer" : ["追加","ついか","tuika","加える","くわえる","kuwaeru"]
         }
     ]
 }

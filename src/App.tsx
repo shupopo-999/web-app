@@ -1,13 +1,15 @@
 import './App.css';
-import React, { useState } from 'react';
+import React,{ useState } from 'react';
 import Countdown from './countdown';
 import Quiz from './quiz.json';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {Result} from './Result';
 
 function App() {  
   const [inputValue, setInputValue] = useState("");
   const [quizIndex,setQuizIndex] = useState(Math.floor(Math.random() * Quiz.quiz.length));
   const [result, setResult] = useState("");
-  const [timeInedx] = useState(60);
+  const [timeInedx] = useState(120);
 
   
 
@@ -48,22 +50,34 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <p>
-        <h1><Countdown time={timeInedx}/></h1>
-        <p>{setExpl()}</p>
-        <h1>{setQuiz()}</h1>
-        <form onSubmit={(e) => handlesubmit(e)} > 
-          <input
-            type="text"
-            value={inputValue}
-            onChange={(e) => handlechenge(e)}
-            className="inputText"
-            />
-        </form>
-      </p>
-      <h1>{result}</h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div className="App">
+              <p>
+                <h1>
+                  <Countdown time={timeInedx} />
+                </h1>
+                <p>{setExpl()}</p>
+                <h1>{setQuiz()}</h1>
+                <ul>{result}</ul>
+                <form onSubmit={handlesubmit}>
+                  <input
+                    type="text"
+                    value={inputValue}
+                    onChange={handlechenge}
+                    className="inputText"
+                  />
+                </form>
+              </p>
+            </div>
+          }
+        />
+        <Route path="/Result" element={<Result />} />
+      </Routes>
+    </Router>
   );
 }
 
