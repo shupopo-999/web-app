@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import './App.css';
+import React, { useState } from 'react';
 import Countdown from './countdown';
 
 function App() {
@@ -48,12 +48,33 @@ function App() {
       id: 9,
       question: "破壊",
       ansewer: ["break","Break","destruction","やぶる","yaburu"]
+    },
+    {
+      id: 10,
+      question: "虚数",
+      ansewer: ["imaginary part","Imaginary Part"]
+    },
+    {
+      id: 11,
+      question: "価格",
+      ansewer: ["Price","price","Prices","prices","Value","value"]
+    },
+    {
+      id: 12,
+      question: "体験する",
+      ansewer: ["Experience it","experience it"]
+    },
+    {
+      id: 13,
+      question: "説明",
+      ansewer: ["Description","explanation","Explanation"]
     }
   ];
-
+  
   const [inputValue, setInputValue] = useState("");
-  const [quizIndex, setQuizIndex] = useState(Math.floor(Math.random() * quiz.length));
+  const [quizIndex,setQuizIndex] = useState(Math.floor(Math.random() * quiz.length));
   const [result, setResult] = useState("");
+  const [timeInedx,setTime] = useState(60);
 
   
 
@@ -69,25 +90,40 @@ function App() {
   const setQuiz = () => {
     return quiz[quizIndex].question;
   }
-
+    
   const judgment = () =>{
     if(quiz[quizIndex].ansewer.includes(inputValue)){
       setResult("正解");
-      setInputValue("");
+      updateQuiz();
     }else{
       setResult("不正解");
-      setInputValue("");
     }
+    setInputValue("");
+  }
+
+  const updateQuiz = () =>{
+    let nextIndex;
+    do{
+      nextIndex = Math.floor((Math.random() * quiz.length));
+    }while(nextIndex === quizIndex);
+    if(timeInedx !== 0){
+      setQuizIndex(nextIndex);
+    } 
   }
 
   return (
     <div className="App">
       <h3>
-        <Countdown time={60}/>
+        <Countdown time={timeInedx}/>
         <h2>{setQuiz()}</h2>
         <ul>{result}</ul>
         <form onSubmit={(e) => handlesubmit(e)} > 
-          <input type="text" onChange={(e) => handlechenge(e)} className="inputText"/>
+          <input
+            type="text"
+            value={inputValue}
+            onChange={(e) => handlechenge(e)}
+            className="inputText"
+          />
         </form>
       </h3>
     </div>

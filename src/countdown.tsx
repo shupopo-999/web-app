@@ -1,10 +1,17 @@
-import React from 'react';
-import { useState } from 'react';
+import React,{ useState } from 'react';
 import { useCountDownInterval } from './useCountDownInterval';
 
-const Countdown  = (num:any) => {
-  const [countTime, setCountTime] = useState<number>(num)
-  useCountDownInterval(countTime, setCountTime)
+type CountdownProps = {
+  time: number;
+};
+
+const Countdown:React.FC<CountdownProps>  = ({time}) => {
+  const [countTime, setCountTime] = useState<number>(time)
+  const handleTimeUp = () =>{
+    <h1>TimeUp</h1>
+    alert("TimeUp");
+  }
+  useCountDownInterval(countTime, setCountTime, handleTimeUp)
     return (
       <p>制限時間: {Math.floor(countTime / 60)}分{countTime % 60}秒 </p>
     )
