@@ -2,76 +2,91 @@
     "quiz":[
         {
             "id" : 1,
+            "explanation" : "和訳せよ",
             "question" : "message",
             "ansewer" : ["メッセージ", "めっせーじ","messe-ji","messe-zi","伝言","でんごん","denngonn","dengon"]
         },
         {
           "id": 2,
+          "explanation" : "和訳せよ",
           "question": "apple",
           "ansewer": ["りんご", "リンゴ","rinngo","ringo"]
         },
         {
           "id": 3,
+          "explanation" : "和訳せよ",
           "question": "consensus",
           "ansewer": ["コンセンサス", "こんせんさす", "konsensasu","konnsennsasu","一致","いっち","itti", "合意","ごうい","goui"]
         },
         {
           "id": 4,
+          "explanation" : "和訳せよ",
           "question": "spark",
           "ansewer": ["火花","ひばな","hibana","きらめき","kiramenki"]
         },
         {
           "id": 5,
+          "explanation" : "和訳せよ",
           "question": "speak",
           "ansewer": ["話す","はなす","hanasu","しゃべる","shaberu"]
         },
         {
           "id": 6,
+          "explanation" : "和訳せよ",
           "question": "success",
           "ansewer": ["成功","せいこう","seikou"]
         },
         {
           "id": 7,
+          "explanation" : "和訳せよ",
           "question": "decay",
           "ansewer": ["腐る","くさる","kusaru"]
         },
         {
           "id": 8,
+          "explanation" : "英訳せよ",
           "question": "作る",
           "ansewer": ["make up","Make Up","make","Make"]
         },
         {
           "id": 9,
+          "explanation" : "英訳せよ",
           "question": "破壊",
           "ansewer": ["break","Break","destruction","やぶる","yaburu"]
         },
         {
           "id": 10,
+          "explanation" : "英訳せよ",
           "question": "虚数",
           "ansewer": ["imaginary part","Imaginary Part"]
         },
         {
           "id": 11,
+          "explanation" : "英訳せよ",
           "question": "価格",
           "ansewer": ["Price","price","Prices","prices","Value","value"]
         },
         {
           "id": 12,
+          "explanation" : "英訳せよ",
           "question": "体験する",
           "ansewer": ["Experience it","experience it"]
         },
         {
           "id": 13,
+          "explanation" : "英訳せよ",
           "question": "説明",
           "ansewer": ["Description","explanation","Explanation"]
         },
         {
           "id": 14,
+          "explanation" : "英訳せよ",
           "question": "解説者",
           "ansewer": ["Commentator","commentator"]
         },
         {
             "id" : 15,
+            "explanation" : "和訳せよ",
             "question" : "area",
             "ansewer" : ["エリア","えりあ","eria"]
         }
