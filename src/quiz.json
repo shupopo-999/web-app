@@ -85,40 +85,100 @@
           "ansewer": ["Commentator","commentator"]
         },
         {
-            "id" : 15,
-            "explanation" : "和訳せよ",
-            "question" : "fix",
-            "ansewer" : ["修正する","しゅうせいする","shuuseisuru","shuseisuru","直す","なおす","naosu"]
+          "id" : 15,
+          "explanation" : "和訳せよ",
+          "question" : "fix",
+          "ansewer" : ["修正する","しゅうせいする","shuuseisuru","shuseisuru","直す","なおす","naosu"]
         },
         {
-            "id" : 16,
-            "explanation" : "和訳せよ",
-            "question" : "rise",
-            "ansewer" : ["上昇","じょうしょう","joushou","jousyou","昇る","のぼる","noboru"]
+          "id" : 16,
+          "explanation" : "和訳せよ",
+          "question" : "rise",
+          "ansewer" : ["上昇","じょうしょう","joushou","jousyou","昇る","のぼる","noboru"]
         },
         {
-            "id" : 17,
+          "id" : 17,
+          "explanation" : "英訳せよ",
+          "question" : "本能",
+          "ansewer" : ["instinct","Instinct"]
+        },
+        {
+          "id" : 18,
+          "explanation" : "英訳せよ",
+          "question" : "巨大な",
+          "ansewer" : ["huge","Huge"]
+        },
+        {
+          "id" : 19,
+          "explanation" : "英訳せよ",
+          "question" : "ごみ",
+          "ansewer" : ["trash","Trash","garbage","Garbage"]
+        },
+        {
+          "id" : 20,
+          "explanation" : "和訳せよ",
+          "question" : "add",
+          "ansewer" : ["追加","ついか","tuika","加える","くわえる","kuwaeru"]
+        },
+        {
+          "id" : 21,
+          "explanation" : "和訳せよ",
+          "question" : "vice",
+          "ansewer" : ["悪","あく","aku","悪徳","あくとく","akutoku","邪悪","じゃあく","jaaku","悪事","あくじ","akuji","akuzi","悪行","あくぎょう","akugyou"]
+        },
+        {
+          "id" : 22,
+          "explanation" : "英訳せよ",
+          "question" : "頂上",
+          "ansewer" : ["sumit","Sumit"]
+        },
+        {
+          "id" : 23,
+          "explanation" : "英訳せよ",
+          "question" : "借金",
+          "ansewer" : ["debt","Debt"]
+        },
+        {
+            "id" : 24,
             "explanation" : "英訳せよ",
-            "question" : "本能",
-            "ansewer" : ["instinct","Instinct"]
+            "question" : "費用",
+            "ansewer" : ["cost","Cost"]
         },
         {
-            "id" : 18,
+            "id" : 25,
             "explanation" : "英訳せよ",
-            "question" : "巨大な",
-            "ansewer" : ["huge","Huge"]
+            "question" : "出費",
+            "ansewer" : ["disbursements","Disbursements"]
         },
         {
-            "id" : 19,
+            "id" : 26,
             "explanation" : "英訳せよ",
-            "question" : "ごみ",
-            "ansewer" : ["trash","Trash","garbage","Garbage"]
+            "question" : "政治",
+            "ansewer" : ["politics","Politics"]
         },
         {
-            "id" : 20,
-            "explanation" : "和訳せよ",
-            "question" : "add",
-            "ansewer" : ["追加","ついか","tuika","加える","くわえる","kuwaeru"]
+            "id" : 27,
+            "explanation" : "英訳せよ",
+            "question" : "選挙",
+            "ansewer" : ["election","Election"]
+        },
+        {
+            "id" : 28,
+            "explanation" : "英訳せよ",
+            "question" : "何かする",
+            "ansewer" : ["do something","Do Something","do Something","Do something"]
+        },
+        {
+            "id" : 29,
+            "explanation" : "英訳せよ",
+            "question" : "光",
+            "ansewer" : ["light","Light"]
+        },
+        {
+            "id" : 30,
+            "explanation" : "英訳せよ",
+            "question" : "蝶",
+            "ansewer" : ["butterfly","Butterfly"]
         }
     ]
 }

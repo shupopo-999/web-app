@@ -11,7 +11,8 @@ declare module '*.png' {
   
     export default value;
   
-  }declare module '*.tsx' {
+  }
+  declare module '*.tsx' {
 
     const value: string;
   

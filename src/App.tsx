@@ -9,9 +9,7 @@ function App() {
   const [inputValue, setInputValue] = useState("");
   const [quizIndex,setQuizIndex] = useState(Math.floor(Math.random() * Quiz.quiz.length));
   const [result, setResult] = useState("");
-  const [timeInedx] = useState(120);
-
-  
+  const [timeInedx] = useState(100);
 
   const handlesubmit = (e: React.FormEvent<HTMLFormElement>) =>{
     e.preventDefault();
