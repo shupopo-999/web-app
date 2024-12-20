@@ -1,16 +1,25 @@
 import './App.css';
-import React,{ useState } from 'react';
+import React,{ useState, useEffect } from 'react';
 import Countdown from './countdown';
 import Quiz from './quiz.json';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import {Result} from './Result';
+import { Result } from './Result';
 import { Title } from './Title';
 
 function App() {  
   const [inputValue, setInputValue] = useState("");
   const [quizIndex,setQuizIndex] = useState(Math.floor(Math.random() * Quiz.quiz.length));
   const [result, setResult] = useState("");
-  const [timeIndex,setTimeIndex] = useState(100);
+  const [timeIndex,setTimeIndex] = useState<number | undefined>(undefined);
+  const [score, setScore] = useState(0);
+
+
+  useEffect(() => {
+    const savedTime = localStorage.getItem('quizTime');
+    if (savedTime) {
+      setTimeIndex(Number(savedTime));
+    }
+  }, []);
 
   const handlesubmit = (e: React.FormEvent<HTMLFormElement>) =>{
     e.preventDefault();
@@ -32,8 +41,14 @@ function App() {
     if(Quiz.quiz[quizIndex].ansewer.includes(inputValue)){
       setResult("正解");
       updateQuiz();
+      const newScore = score + 10;
+      setScore(newScore);
+      localStorage.setItem('quizScore', newScore.toString());
     }else{
       setResult("不正解");
+      const newScore = score - 3;
+      setScore(newScore);
+      localStorage.setItem('quizScore', newScore.toString());
     }
     setInputValue("");
   }
@@ -46,6 +61,11 @@ function App() {
     if(timeIndex !== 0){
       setQuizIndex(nextIndex);
     } 
+  }
+
+  const handleTimeUp = () =>{
+    alert("時間切れです");
+    window.location.href = "/Result";
   }
 
   return (
@@ -61,7 +81,7 @@ function App() {
             <div className="App gradient-background">
               <p>
                 <h1>
-                  <Countdown time={timeIndex} />
+                  {timeIndex !== undefined && <Countdown time={timeIndex} onTimeUp={handleTimeUp}/>}
                 </h1>
                 <p>{setExpl()}</p>
                 <h1>{setQuiz()}</h1>
@@ -78,7 +98,10 @@ function App() {
             </div>
           }
         />
-        <Route path="/Result" element={<Result />} />
+        <Route 
+          path="/Result" 
+          element={<Result score={ score }  />}
+        />
       </Routes>
     </Router>
   );

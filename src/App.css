@@ -11,6 +11,26 @@
   height: 100%;
   object-fit: cover;
 }
+.title{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.result{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.text-margin-left{
+  margin-left: 30px;
+}
 
 /* グラデーション背景のスタイル */
 .gradient-background {
@@ -23,6 +43,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.gradient-text {
+  font-size: 50px;
+  background: linear-gradient(135deg, #f86267 0%, #e9f862 10%, hsl(125, 100%, 72%) 20%, #62f8ad 30%, #62f3f8 40%, #5993ff 50%,
+  #6562f8 60%, #9a42ff 70%, #df62f8 80%, #f862d3 90%, #ff3939 100%);
+  -webkit-background-clip: text; /* 文字の背景にグラデーションを適用 */
+  background-clip: text; /* 標準プロパティを追加 */
+  color: transparent; /* 文字の色を透明に設定 */
+  font-weight: bold;
 }
 
 @keyframes gradientAnimation {
