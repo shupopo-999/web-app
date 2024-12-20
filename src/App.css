@@ -54,6 +54,10 @@
   font-weight: bold;
 }
 
+.text-margin-top{
+  margin-top: 15px;
+}
+
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 25%;

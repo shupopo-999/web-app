@@ -18,9 +18,12 @@ export const Title: React.FC<TitleProps> = ({ setTimeIndex }) => {
                 <h1>Type EN</h1>
                 <p>以下から制限時間を選択してください</p>
                 <div className="time-buttons">
-                    <button className="text-margin-left" onClick={() => handleTimeSelect(3)}>30秒</button>
-                    <button className="text-margin-left" onClick={() => handleTimeSelect(6)}>60秒</button>
-                    <button className="text-margin-left" onClick={() => handleTimeSelect(10)}>120秒</button>
+                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(30)}>30秒</button>
+                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(60)}>60秒</button>
+                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(120)}>120秒</button>
+                    <br/>
+                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(150)}>150秒</button>
+                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(200)}>200秒</button>
                 </div>
             </p>
         </div>
