@@ -11,3 +11,34 @@
   height: 100%;
   object-fit: cover;
 }
+
+/* グラデーション背景のスタイル */
+.gradient-background {
+  background: linear-gradient(135deg, #f86267 0%, #e9f862 10%, hsl(125, 100%, 72%) 20%, #62f8ad 30%, #62f3f8 40%, #5993ff 50%,
+   #6562f8 60%, #9a42ff 70%, #df62f8 80%, #f862d3 90%, #ff3939 100%);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  height: 100vh; /* ビューポート全体をカバー */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 25%;
+  }
+  25% {
+    background-position: 25% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 25%;
+  }
+  100% {
+    background-position: 0% 25%;
+  }
+}

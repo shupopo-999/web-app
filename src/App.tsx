@@ -4,19 +4,20 @@ import Countdown from './countdown';
 import Quiz from './quiz.json';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {Result} from './Result';
+import { Title } from './Title';
 
 function App() {  
   const [inputValue, setInputValue] = useState("");
   const [quizIndex,setQuizIndex] = useState(Math.floor(Math.random() * Quiz.quiz.length));
   const [result, setResult] = useState("");
-  const [timeInedx] = useState(100);
+  const [timeIndex,setTimeIndex] = useState(100);
 
   const handlesubmit = (e: React.FormEvent<HTMLFormElement>) =>{
     e.preventDefault();
     judgment();
   }
   
-  const handlechenge = (e: React.ChangeEvent<HTMLInputElement>) =>{
+  const handlechange = (e: React.ChangeEvent<HTMLInputElement>) =>{
     setInputValue(e.target.value);
   }
 
@@ -42,7 +43,7 @@ function App() {
     do{
       nextIndex = Math.floor((Math.random() * Quiz.quiz.length));
     }while(nextIndex === quizIndex);
-    if(timeInedx !== 0){
+    if(timeIndex !== 0){
       setQuizIndex(nextIndex);
     } 
   }
@@ -52,11 +53,15 @@ function App() {
       <Routes>
         <Route
           path="/"
+          element={<Title setTimeIndex={setTimeIndex} />}
+        />
+        <Route
+          path="/quiz"
           element={
-            <div className="App">
+            <div className="App gradient-background">
               <p>
                 <h1>
-                  <Countdown time={timeInedx} />
+                  <Countdown time={timeIndex} />
                 </h1>
                 <p>{setExpl()}</p>
                 <h1>{setQuiz()}</h1>
@@ -65,7 +70,7 @@ function App() {
                   <input
                     type="text"
                     value={inputValue}
-                    onChange={handlechenge}
+                    onChange={handlechange}
                     className="inputText"
                   />
                 </form>
