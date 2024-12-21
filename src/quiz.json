@@ -241,6 +241,188 @@
             "ansewer" : ["便利","べんり","bennri","benri","便利な","べんりな","bennrina","benrina",
             "都合がいい","つごうがいい","tsugougaii","tugougaii","tsugougayoi","tugougayoi","都合のいい"
             ,"つごうのいい","tsugounoii","tugounoii","tsugounoyoi","tugounoyoi"]
+        },
+        {
+            "id" : 41,
+            "explanation" : "和訳せよ",
+            "question" : "chatting",
+            "ansewer" : ["雑談","ざつだん","zatudann","zatsudann","zatun","zatsudan"]
+        },
+        {
+            "id" : 42,
+            "explanation" : "和訳せよ",
+            "question" : "gift",
+            "ansewer" : ["贈り物","おくりもの","okurimono","贈答品","ぞうとうひん","zoutouhin","zoutouhinn"]
+        },
+        {
+            "id" : 43,
+            "explanation" : "和訳せよ",
+            "question" : "the current",
+            "ansewer" : ["現在","げんざい","genzai","gennzai"]
+        },
+        {
+            "id" : 44,
+            "explanation" : "和訳せよ",
+            "question" : "movie",
+            "ansewer" : ["映画","えいが","eiga"]
+        },
+        {
+            "id" : 45,
+            "explanation" : "英訳せよ",
+            "question" : "愛",
+            "ansewer" : ["love","Love"]
+        },
+        {
+            "id" : 46,
+            "explanation" : "英訳せよ",
+            "question" : "うんち",
+            "ansewer" : ["poop","Poop"]
+        },
+        {
+            "id" : 47,
+            "explanation" : "英訳せよ",
+            "question" : "世界一",
+            "ansewer" : ["world number one","World Number One","World number one",
+            "best in the world","Best in the world","Best In The World"]
+        },
+        {
+            "id" : 48,
+            "explanation" : "和訳せよ",
+            "question" : "translation",
+            "ansewer" : ["翻訳","ほんやく","honnyaku","honyaku"]
+        },
+        {
+            "id" : 49,
+            "explanation" : "和訳せよ",
+            "question" : "最大",
+            "ansewer" : ["largest","Largest","maximum","Maximum"]
+        },
+        {
+            "id" : 50,
+            "explanation" : "英訳せよ",
+            "question" : "命令",
+            "ansewer" : ["order","Order"]
+        },
+        {
+            "id" : 51,
+            "explanation" : "和訳せよ",
+            "question" : "practise",
+            "ansewer" : ["練習","れんしゅう","renshuu","rensyuu","rennshuu","rennsyuu","rennshu","rennsyu"]
+        },
+        {
+            "id" : 52,
+            "explanation" : "英訳せよ",
+            "question" : "practise",
+            "ansewer" : ["練習","れんしゅう","renshuu","rensyuu","rennshuu","rennsyuu","rennshu","rennsyu"]
+        },
+        {
+            "id" : 53,
+            "explanation" : "和訳せよ",
+            "question" : "smallest",
+            "ansewer" : ["最小","さいしょう","最少","saishou","saisho","saisyou","saisyo"]
+        },
+        {
+            "id" : 54,
+            "explanation" : "英訳せよ",
+            "question" : "配信者",
+            "ansewer" : ["streamer","Streamer","distributor","Distributor"]
+        },
+        {
+            "id" : 55,
+            "explanation" : "和訳せよ",
+            "question" : "game",
+            "ansewer" : ["試合","しあい","siai","shiai","競技","きょうぎ","kyougi",
+            "勝負","しょうぶ","shoubu","syoubu"]
+        },
+        {
+            "id" : 56,
+            "explanation" : "英訳せよ",
+            "question" : "時間",
+            "ansewer" : ["time","Time","Hours","hours"]
+        },
+        {
+            "id" : 57,
+            "explanation" : "英訳せよ",
+            "question" : "無料",
+            "ansewer" : ["free","Free"]
+        },
+        {
+            "id" : 58,
+            "explanation" : "和訳せよ",
+            "question" : "give",
+            "ansewer" : ["上げる","あげる","ageru","与える","あたえる","ataeru"]
+        },
+        {
+            "id" : 59,
+            "explanation" : "和訳せよ",
+            "question" : "boss",
+            "ansewer" : ["親分","おやぶん","oyabunn","oyabun","上司","じょうし","joushi","jousi","親玉","おやだま","oyadama"]
+        },
+        {
+            "id" : 60,
+            "explanation" : "英訳せよ",
+            "question" : "ブロック",
+            "ansewer" : ["block","Block"]
+        },
+        {
+            "id" : 61,
+            "explanation" : "英訳せよ",
+            "question" : "パーソナルコンピュータ",
+            "ansewer" : ["personal computer","Personal Computer","Personal computer"]
+        },
+        {
+            "id" : 62,
+            "explanation" : "英訳せよ",
+            "question" : "骨",
+            "ansewer" : ["bone Bone"]
+        },
+        {
+            "id" : 63,
+            "explanation" : "英訳せよ",
+            "question" : "エンチャント",
+            "ansewer" : ["Enchant","enchant"]
+        },
+        {
+            "id" : 64,
+            "explanation" : "英訳せよ",
+            "question" : "人形",
+            "ansewer" : ["doll","Doll"]
+        },
+        {
+            "id" : 65,
+            "explanation" : "英訳せよ",
+            "question" : "夜",
+            "ansewer" : ["night","Night"]
+        },
+        {
+            "id" : 66,
+            "explanation" : "和訳せよ",
+            "question" : "adventure",
+            "ansewer" : ["冒険","ぼうけん","bouken","boukenn"]
+        },
+        {
+            "id" : 67,
+            "explanation" : "英訳せよ",
+            "question" : "探検する",
+            "ansewer" : ["explore","Explore"]
+        },
+        {
+            "id" : 68,
+            "explanation" : "和訳せよ",
+            "question" : "search",
+            "ansewer" : ["検索","けんさく","kensaku","kennsaku"]
+        },
+        {
+            "id" : 69,
+            "explanation" : "英訳せよ",
+            "question" : "危険",
+            "ansewer" : ["danger","Danger"]
+        },
+        {
+            "id" : 70,
+            "explanation" : "英訳せよ",
+            "question" : "騎士",
+            "ansewer" : ["knight","Knight"]
         }
     ]
 }
