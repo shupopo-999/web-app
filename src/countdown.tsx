@@ -1,4 +1,4 @@
-import React,{ useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useCountDownInterval } from './useCountDownInterval';
 
 type CountdownProps = {
@@ -6,26 +6,26 @@ type CountdownProps = {
   onTimeUp: () => void;
 };
 
-const Countdown:React.FC<CountdownProps>  = ({time, onTimeUp}) => {
-  const [countTime, setCountTime] = useState<number>(time)
-  const [progress, setProgress] = useState<number>(100); // 進行状況の割合 (0-100)
+const Countdown: React.FC<CountdownProps> = React.memo(({ time, onTimeUp }) => {
+  const timeRef = useCountDownInterval(time, onTimeUp);
+  const [progress, setProgress] = useState(100);
 
   useEffect(() => {
-    setProgress((countTime / time) * 100); // 残り時間に基づいて進行状況を計算
-  }, [countTime, time]);
-
-  useCountDownInterval(countTime, setCountTime, onTimeUp)
+    const updateProgress = () => {
+      setProgress((timeRef.current / time) * 100);
+    };
+    const interval = setInterval(updateProgress, 500);
+    return () => clearInterval(interval);
+  }, [time, timeRef]);
 
   return (
     <div>
-      <p>
-        制限時間: {countTime}秒
-      </p>
+      <p>制限時間: {timeRef.current}秒</p>
       <div style={{ width: '100%', backgroundColor: '#eee', height: '20px', borderRadius: '10px' }}>
         <div
           style={{
             width: `${progress}%`,
-            backgroundColor: progress > 10 ? '#4caf50' : '#f44336', // 進行状況によって色を変える
+            backgroundColor: progress > 10 ? '#4caf50' : '#f44336',
             height: '100%',
             borderRadius: '10px',
             transition: 'width 0.5s ease',
@@ -33,6 +33,7 @@ const Countdown:React.FC<CountdownProps>  = ({time, onTimeUp}) => {
         ></div>
       </div>
     </div>
-  )
-}
+  );
+});
+
 export default Countdown;

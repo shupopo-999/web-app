@@ -26,9 +26,10 @@ function App() {
     judgment();
   }
   
-  const handlechange = (e: React.ChangeEvent<HTMLInputElement>) =>{
+  const handlechange = React.useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(e.target.value);
-  }
+  }, []);
+  
 
   const setExpl = () => {
     return Quiz.quiz[quizIndex].explanation;
@@ -63,10 +64,10 @@ function App() {
     } 
   }
 
-  const handleTimeUp = () =>{
-    alert("時間切れです");
-    window.location.href = "/Result";
-  }
+  const handleTimeUp = React.useCallback(() => {
+    alert('時間切れです');
+    window.location.href = '/Result';
+  }, []);
 
   return (
     <Router>
@@ -80,17 +81,21 @@ function App() {
           element={
             <div className="App gradient-background">
               <p>
-                <h1>
-                  {timeIndex !== undefined && <Countdown time={timeIndex} onTimeUp={handleTimeUp}/>}
+              <h1>
+                  {/* timeIndexがundefinedでない場合にCountdownをレンダリング */}
+                  {timeIndex !== undefined && <Countdown time={timeIndex} onTimeUp={handleTimeUp} />}
                 </h1>
-                <p>{setExpl()}</p>
-                <h1>{setQuiz()}</h1>
+                <p>{Quiz.quiz[quizIndex].explanation}</p>
+                <h1>{Quiz.quiz[quizIndex].question}</h1>
                 <ul>{result}</ul>
-                <form onSubmit={handlesubmit}>
+                <form onSubmit={(e) => {
+                  e.preventDefault();
+                  judgment();
+                }}>
                   <input
                     type="text"
                     value={inputValue}
-                    onChange={handlechange}
+                    onChange={(e) => setInputValue(e.target.value)}
                     className="inputText"
                   />
                 </form>

@@ -88,7 +88,7 @@
           "id" : 15,
           "explanation" : "和訳せよ",
           "question" : "fix",
-          "ansewer" : ["修正する","しゅうせいする","shuuseisuru","shuseisuru","直す","なおす","naosu"]
+          "ansewer" : ["修正する","しゅうせいする","shuuseisuru","shuseisuru","syuuseisuru","syuseisuru","直す","なおす","naosu"]
         },
         {
           "id" : 16,
@@ -130,7 +130,7 @@
           "id" : 22,
           "explanation" : "英訳せよ",
           "question" : "頂上",
-          "ansewer" : ["sumit","Sumit"]
+          "ansewer" : ["summit","Summit"]
         },
         {
           "id" : 23,
@@ -179,6 +179,68 @@
             "explanation" : "英訳せよ",
             "question" : "蝶",
             "ansewer" : ["butterfly","Butterfly"]
+        },
+        {
+            "id" : 31,
+            "explanation" : "英訳せよ",
+            "question" : "石",
+            "ansewer" : ["stone","Stone"]
+        },
+        {
+            "id" : 32,
+            "explanation" : "英訳せよ",
+            "question" : "斧",
+            "ansewer" : ["axe","Axe"]
+        },
+        {
+            "id" : 33,
+            "explanation" : "英訳せよ",
+            "question" : "付与する",
+            "ansewer" : ["Granting","granting"]
+        },
+        {
+            "id" : 34,
+            "explanation" : "英訳せよ",
+            "question" : "連合",
+            "ansewer" : ["union","Union"]
+        },
+        {
+            "id" : 35,
+            "explanation" : "英訳せよ",
+            "question" : "夜明け",
+            "ansewer" : ["dawn","Dawn"]
+        },
+        {
+            "id" : 36,
+            "explanation" : "英訳せよ",
+            "question" : "宗教",
+            "ansewer" : ["religion","Religion"]
+        },
+        {
+            "id" : 37,
+            "explanation" : "和訳せよ",
+            "question" : "fishing",
+            "ansewer" : ["釣り","つり","tsuri","turi","魚釣り","さかなつり","sakanatsuri","sakanaturi"]
+        },
+        {
+            "id" : 38,
+            "explanation" : "英訳せよ",
+            "question" : "更新",
+            "ansewer" : ["Update","update"]
+        },
+        {
+            "id" : 39,
+            "explanation" : "和訳せよ",
+            "question" : "fishing",
+            "ansewer" : ["釣り","つり","tsuri","turi","魚釣り","さかなつり","sakanatsuri","sakanaturi"]
+        },
+        {
+            "id" : 40,
+            "explanation" : "和訳せよ",
+            "question" : "convenient",
+            "ansewer" : ["便利","べんり","bennri","benri","便利な","べんりな","bennrina","benrina",
+            "都合がいい","つごうがいい","tsugougaii","tugougaii","tsugougayoi","tugougayoi","都合のいい"
+            ,"つごうのいい","tsugounoii","tugounoii","tsugounoyoi","tugounoyoi"]
         }
     ]
 }
