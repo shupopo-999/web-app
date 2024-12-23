@@ -12,6 +12,7 @@ function App() {
   const [result, setResult] = useState("");
   const [timeIndex,setTimeIndex] = useState<number | undefined>(undefined);
   const [score, setScore] = useState(0);
+  const [answerExample, setAnswerExample] = useState<string | null>(null);
 
 
   useEffect(() => {
@@ -29,14 +30,7 @@ function App() {
   const handlechange = React.useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(e.target.value);
   }, []);
-  
 
-  const setExpl = () => {
-    return Quiz.quiz[quizIndex].explanation;
-  }
-  const setQuiz = () => {
-    return Quiz.quiz[quizIndex].question;
-  }
     
   const judgment = () =>{
     if(Quiz.quiz[quizIndex].ansewer.includes(inputValue)){
@@ -62,12 +56,30 @@ function App() {
     if(timeIndex !== 0){
       setQuizIndex(nextIndex);
     } 
+    setAnswerExample(null);
   }
 
   const handleTimeUp = React.useCallback(() => {
     alert('時間切れです');
     window.location.href = '/Result';
   }, []);
+
+  const handleSkip = () => {
+    // ランダムな解答例を1つ選択
+    const randomAnswer = Quiz.quiz[quizIndex].ansewer[
+      Math.floor(Math.random() * Quiz.quiz[quizIndex].ansewer.length)
+    ];
+    setAnswerExample(randomAnswer); // 解答例をセット
+
+    const newScore = score - 4;
+    setScore(newScore);
+    localStorage.setItem('quizScore', newScore.toString());
+
+    // 1秒後に次の問題に進む
+    setTimeout(() => {
+      updateQuiz();
+    }, 1500);
+  }
 
   return (
     <Router>
@@ -82,13 +94,14 @@ function App() {
             <div className="App gradient-background">
               <p>
               <h1>
-                  {/* timeIndexがundefinedでない場合にCountdownをレンダリング */}
                   {timeIndex !== undefined && <Countdown time={timeIndex} onTimeUp={handleTimeUp} />}
                 </h1>
                 <p>{Quiz.quiz[quizIndex].explanation}</p>
                 <h1>{Quiz.quiz[quizIndex].question}</h1>
                 <ul>{result}</ul>
-                <form onSubmit={(e) => {
+                <form 
+                  className="text-margin-bottom"
+                  onSubmit={(e) => {
                   e.preventDefault();
                   judgment();
                 }}>
@@ -99,6 +112,20 @@ function App() {
                     className="inputText"
                   />
                 </form>
+                <h2>
+                  {answerExample && (
+                  <p className="answer-example">
+                    解答例: {answerExample}
+                  </p>
+                  )}
+                </h2>
+                <button
+                    className="text-margin-left"
+                    onClick={handleSkip}{...Quiz.quiz[quizIndex].ansewer}
+                    disabled={score < 4} // 点数が不足している場合は無効化
+                  >
+                    スキップ (-4点)
+                  </button>
               </p>
             </div>
           }

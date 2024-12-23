@@ -246,7 +246,7 @@
             "id" : 41,
             "explanation" : "和訳せよ",
             "question" : "chatting",
-            "ansewer" : ["雑談","ざつだん","zatudann","zatsudann","zatun","zatsudan"]
+            "ansewer" : ["雑談","ざつだん","zatudann","zatsudann","zatudan","zatsudan"]
         },
         {
             "id" : 42,
@@ -373,14 +373,14 @@
         {
             "id" : 62,
             "explanation" : "英訳せよ",
-            "question" : "骨",
-            "ansewer" : ["bone Bone"]
+            "question" : "エンチャント",
+            "ansewer" : ["Enchant","enchant"]
         },
         {
             "id" : 63,
             "explanation" : "英訳せよ",
-            "question" : "エンチャント",
-            "ansewer" : ["Enchant","enchant"]
+            "question" : "骨",
+            "ansewer" : ["bone","Bone"]
         },
         {
             "id" : 64,
@@ -410,7 +410,7 @@
             "id" : 68,
             "explanation" : "和訳せよ",
             "question" : "search",
-            "ansewer" : ["検索","けんさく","kensaku","kennsaku"]
+            "ansewer" : ["検索","けんさく","kensaku","kennsaku","探す","さがす","sagasu","探索","たんさく","tansaku","tannsaku"]
         },
         {
             "id" : 69,

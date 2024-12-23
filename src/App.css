@@ -57,6 +57,9 @@
 .text-margin-top{
   margin-top: 15px;
 }
+.text-margin-bottom{
+  margin-bottom: 15px;
+}
 
 @keyframes gradientAnimation {
   0% {
