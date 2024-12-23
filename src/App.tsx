@@ -120,7 +120,6 @@ function App() {
                   )}
                 </h2>
                 <button
-                    className="text-margin-left"
                     onClick={handleSkip}{...Quiz.quiz[quizIndex].ansewer}
                     disabled={score < 4} // 点数が不足している場合は無効化
                   >
