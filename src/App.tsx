@@ -21,16 +21,6 @@ function App() {
       setTimeIndex(Number(savedTime));
     }
   }, []);
-
-  const handlesubmit = (e: React.FormEvent<HTMLFormElement>) =>{
-    e.preventDefault();
-    judgment();
-  }
-  
-  const handlechange = React.useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
-    setInputValue(e.target.value);
-  }, []);
-
     
   const judgment = () =>{
     if(Quiz.quiz[quizIndex].ansewer.includes(inputValue)){
@@ -65,17 +55,15 @@ function App() {
   }, []);
 
   const handleSkip = () => {
-    // ランダムな解答例を1つ選択
     const randomAnswer = Quiz.quiz[quizIndex].ansewer[
       Math.floor(Math.random() * Quiz.quiz[quizIndex].ansewer.length)
     ];
-    setAnswerExample(randomAnswer); // 解答例をセット
+    setAnswerExample(randomAnswer); 
 
     const newScore = score - 4;
     setScore(newScore);
     localStorage.setItem('quizScore', newScore.toString());
 
-    // 1秒後に次の問題に進む
     setTimeout(() => {
       updateQuiz();
     }, 1500);
@@ -120,11 +108,11 @@ function App() {
                   )}
                 </h2>
                 <button
-                    onClick={handleSkip}{...Quiz.quiz[quizIndex].ansewer}
-                    disabled={score < 4} // 点数が不足している場合は無効化
-                  >
-                    スキップ (-4点)
-                  </button>
+                  onClick={handleSkip}{...Quiz.quiz[quizIndex].ansewer}
+                  disabled={score < 4} 
+                >
+                  スキップ (-4点)
+                </button>
               </p>
             </div>
           }
