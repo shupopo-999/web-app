@@ -423,6 +423,138 @@
             "explanation" : "英訳せよ",
             "question" : "騎士",
             "ansewer" : ["knight","Knight"]
+        },
+        {
+            "id" : 71,
+            "explanation" : "英訳せよ",
+            "question" : "1月",
+            "ansewer" : ["January","january"]
+        },
+        {
+            "id" : 72,
+            "explanation" : "英訳せよ",
+            "question" : "2月",
+            "ansewer" : ["february","February"]
+        },
+        {
+            "id" : 73,
+            "explanation" : "英訳せよ",
+            "question" : "3月",
+            "ansewer" : ["march","March"]
+        },
+        {
+            "id" : 74,
+            "explanation" : "英訳せよ",
+            "question" : "4月",
+            "ansewer" : ["april","April"]
+        },
+        {
+            "id" : 75,
+            "explanation" : "英訳せよ",
+            "question" : "5月",
+            "ansewer" : ["may","May"]
+        },
+        {
+            "id" : 76,
+            "explanation" : "英訳せよ",
+            "question" : "6月",
+            "ansewer" : ["june","June"]
+        },
+        {
+            "id" : 77,
+            "explanation" : "英訳せよ",
+            "question" : "7",
+            "ansewer" : ["july","July"]
+        },
+        {
+            "id" : 78,
+            "explanation" : "英訳せよ",
+            "question" : "8月",
+            "ansewer" : ["august","August"]
+        },
+        {
+            "id" : 79,
+            "explanation" : "英訳せよ",
+            "question" : "9月",
+            "ansewer" : ["september","September"]
+        },
+        {
+            "id" : 80,
+            "explanation" : "英訳せよ",
+            "question" : "10月",
+            "ansewer" : ["october","October"]
+        },
+        {
+            "id" : 81,
+            "explanation" : "英訳せよ",
+            "question" : "11月",
+            "ansewer" : ["november","November"]
+        },
+        {
+            "id" : 82,
+            "explanation" : "英訳せよ",
+            "question" : "12月",
+            "ansewer" : ["december","December"]
+        },
+        {
+            "id" : 83,
+            "explanation" : "英訳せよ",
+            "question" : "1",
+            "ansewer" : ["one","One"]
+        },
+        {
+            "id" : 84,
+            "explanation" : "英訳せよ",
+            "question" : "2",
+            "ansewer" : ["two","Two"]
+        },
+        {
+            "id" : 85,
+            "explanation" : "英訳せよ",
+            "question" : "3",
+            "ansewer" : ["three","Three"]
+        },
+        {
+            "id" : 86,
+            "explanation" : "英訳せよ",
+            "question" : "4",
+            "ansewer" : ["four","Four"]
+        },
+        {
+            "id" : 87,
+            "explanation" : "英訳せよ",
+            "question" : "5",
+            "ansewer" : ["five","Five"]
+        },
+        {
+            "id" : 88,
+            "explanation" : "英訳せよ",
+            "question" : "6",
+            "ansewer" : ["six","Six"]
+        },
+        {
+            "id" : 89,
+            "explanation" : "英訳せよ",
+            "question" : "7",
+            "ansewer" : ["seven","Seven"]
+        },
+        {
+            "id" : 90,
+            "explanation" : "英訳せよ",
+            "question" : "8",
+            "ansewer" : ["eight","Eight"]
+        },
+        {
+            "id" : 91,
+            "explanation" : "英訳せよ",
+            "question" : "9",
+            "ansewer" : ["nine","Nine"]
+        },
+        {
+            "id" : 92,
+            "explanation" : "英訳せよ",
+            "question" : "10",
+            "ansewer" : ["ten","Ten"]
         }
     ]
 }

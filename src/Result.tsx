@@ -23,9 +23,9 @@ export const Result: React.FC<ResultProps> = () => {
   };
 
   const handleReplay = () => {
-    localStorage.removeItem('quizScore'); // スコアをリセット
-    setScore(0); // スコアを0に初期化
-    window.location.href = '/quiz'; // クイズページに遷移
+    localStorage.removeItem('quizScore'); 
+    setScore(0); 
+    window.location.href = '/quiz'; 
   };
 
   return (
