@@ -22,7 +22,7 @@
           "id": 4,
           "explanation" : "和訳せよ",
           "question": "spark",
-          "ansewer": ["火花","ひばな","hibana","きらめき","kiramenki","スパーク","すぱーく","supa-ku","火花","ひばな","hibana"]
+          "ansewer": ["火花","ひばな","hibana","きらめき","kiramenki","種火","たねび","tanebi"]
         },
         {
           "id": 5,
@@ -246,7 +246,8 @@
             "id" : 41,
             "explanation" : "和訳せよ",
             "question" : "chatting",
-            "ansewer" : ["雑談","ざつだん","zatudann","zatsudann","zatudan","zatsudan"]
+            "ansewer" : ["雑談","ざつだん","zatudann","zatsudann","zatudan","zatsudan","談笑","だんしょう",
+            "dannshou","danshou","dansyou","dannsyou"]
         },
         {
             "id" : 42,
@@ -258,13 +259,13 @@
             "id" : 43,
             "explanation" : "和訳せよ",
             "question" : "the current",
-            "ansewer" : ["現在","げんざい","genzai","gennzai"]
+            "ansewer" : ["現在","げんざい","genzai","gennzai","今","いま","ima"]
         },
         {
             "id" : 44,
             "explanation" : "和訳せよ",
             "question" : "movie",
-            "ansewer" : ["映画","えいが","eiga"]
+            "ansewer" : ["映画","えいが","eiga","映像","えいぞう","eizou","動画","どうが","douga"]
         },
         {
             "id" : 45,
@@ -289,7 +290,7 @@
             "id" : 48,
             "explanation" : "和訳せよ",
             "question" : "translation",
-            "ansewer" : ["翻訳","ほんやく","honnyaku","honyaku"]
+            "ansewer" : ["翻訳","ほんやく","honnyaku","honyaku","訳文","やくぶん","yakubun","yakubinn"]
         },
         {
             "id" : 49,
@@ -555,6 +556,56 @@
             "explanation" : "英訳せよ",
             "question" : "10",
             "ansewer" : ["ten","Ten"]
+        },
+        {
+            "id" : 93,
+            "explanation" : "英訳せよ",
+            "question" : "印刷",
+            "ansewer" : ["Printing","printing"]
+        },
+        {
+            "id" : 94,
+            "explanation" : "英訳せよ",
+            "question" : "携帯",
+            "ansewer" : ["portable","Portable"]
+        },
+        {
+            "id" : 95,
+            "explanation" : "英訳せよ",
+            "question" : "マウス",
+            "ansewer" : ["mouse","Mouse"]
+        },
+        {
+            "id" : 96,
+            "explanation" : "英訳せよ",
+            "question" : "鍵",
+            "ansewer" : ["key","Key"]
+        },
+        {
+            "id" : 97,
+            "explanation" : "英訳せよ",
+            "question" : "grandmother",
+            "ansewer" : ["おばあさん","obaasann","obaasan","祖母","そぼ","sobo","おばあちゃん",
+            "obaatyann","obaatyan","obaachann","obaachan"]
+        },
+        {
+            "id" : 98,
+            "explanation" : "英訳せよ",
+            "question" : "grandfather",
+            "ansewer" : ["祖父","そふ","sohu","sofu","おじいちゃん","ojiityann","ojiityan","ojiityann","ojiichan",
+            "oziityann","oziityan","oziichann","oziichan","おじいさん","ojiisann","ojiisan","oziisann","oziisan"]
+        },
+        {
+            "id" : 99,
+            "explanation" : "英訳せよ",
+            "question" : "父",
+            "ansewer" : ["father","Father"]
+        },
+        {
+            "id" : 100,
+            "explanation" : "英訳せよ",
+            "question" : "母",
+            "ansewer" : ["mother","Mother"]
         }
     ]
 }
