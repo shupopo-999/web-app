@@ -78,3 +78,31 @@
     background-position: 0% 25%;
   }
 }
+
+/* ボタンの角を丸くする */
+button {
+  border-radius: 8px; /* 角の丸みを設定 */
+  padding: 10px 20px; /* ボタンの内側余白を調整 */
+  border: none; /* ボタンの枠線を消す */
+  cursor: pointer; /* ポインタの形を変更 */
+  transition: background-color 0.3s ease; /* ホバー時の背景色変更をスムーズに */
+}
+
+/* ボタンにホバー時のエフェクトを追加 */
+button:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* ホバー時の背景色を少し変更 */
+}
+
+/* 入力欄の角を丸くする */
+input {
+  border-radius: 8px; /* 角の丸みを設定 */
+  padding: 10px; /* 入力欄の内側余白を調整 */
+  border: 1px solid #ccc; /* 入力欄の枠線を設定 */
+  outline: none; /* フォーカス時の青い枠を削除 */
+  transition: border-color 0.3s ease; /* フォーカス時の枠線色変更をスムーズに */
+}
+
+/* 入力欄がフォーカスされたときのスタイル */
+input:focus {
+  border-color: #5993ff; /* フォーカス時の枠線色を変更 */
+}
