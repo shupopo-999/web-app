@@ -567,7 +567,7 @@
             "id" : 94,
             "explanation" : "英訳せよ",
             "question" : "携帯",
-            "ansewer" : ["portable","Portable"]
+            "ansewer" : ["cell phone","Cell Phone","Cell phone","cell Phone"]
         },
         {
             "id" : 95,
