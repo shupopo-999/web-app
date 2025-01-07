@@ -11,7 +11,7 @@ const Difficulty: React.FC = () => {
     <div  className="title gradient-background">
         <h1>難易度選択</h1>
         <div className='time-buttons'>
-            <button className="text-margin-left text-margin-top" onClick={() => handleDifficultySelect('Easy')}>East</button>
+            <button className="text-margin-left text-margin-top" onClick={() => handleDifficultySelect('Easy')}>Easy</button>
             <button className="text-margin-left text-margin-top" onClick={() => handleDifficultySelect('Normal')}>Normal</button>
             <button className="text-margin-left text-margin-top" onClick={() => handleDifficultySelect('Hard')}>Hard</button>
             <button className="text-margin-left text-margin-top" onClick={() => handleDifficultySelect('Random')}>Random</button>
