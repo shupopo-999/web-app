@@ -1,18 +1,25 @@
 import './App.css';
 import React,{ useState, useEffect } from 'react';
 import Countdown from './countdown';
+import Easy from './easy_quiz.json';
+import Normal from './normal_quiz.json';
+import Hard from './hard_quiz.json';
 import Quiz from './quiz.json';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Result } from './Result';
+import { TimePick } from './time_pick';
+import Difficulty from './difficulty';
 import { Title } from './Title';
 
 function App() {  
   const [inputValue, setInputValue] = useState("");
-  const [quizIndex,setQuizIndex] = useState(Math.floor(Math.random() * Quiz.quiz.length));
   const [result, setResult] = useState("");
   const [timeIndex,setTimeIndex] = useState<number | undefined>(undefined);
+  const [diffIndex,setDiffIndex] = useState<string | undefined>(undefined);
   const [score, setScore] = useState(0);
   const [answerExample, setAnswerExample] = useState<string | null>(null);
+  const [currentQuizData, setCurrentQuizData] = useState(Quiz.quiz);
+  const [quizIndex,setQuizIndex] = useState(0);
 
 
   useEffect(() => {
@@ -20,10 +27,31 @@ function App() {
     if (savedTime) {
       setTimeIndex(Number(savedTime));
     }
+    const savedDiff = localStorage.getItem('quizDifficulty');
+    if(savedDiff){
+      setDiffIndex(savedDiff);
+    }
+    switch(savedDiff) {
+      case 'Easy':
+        setCurrentQuizData(Easy.quiz);
+        break;
+      case 'Normal':
+        setCurrentQuizData(Normal.quiz);
+        break;
+      case 'Hard':
+        setCurrentQuizData(Hard.quiz);
+        break;
+      case 'Random':
+        setCurrentQuizData(Quiz.quiz);
+        break;
+      default:
+        setCurrentQuizData(Quiz.quiz);
+    }
   }, []);
-    
+  
   const judgment = () =>{
-    if(Quiz.quiz[quizIndex].ansewer.includes(inputValue)){
+    const currentQuiz = currentQuizData[quizIndex];
+    if(currentQuiz.ansewer.includes(inputValue)){
       setResult("正解");
       updateQuiz();
       const newScore = score + 10;
@@ -41,7 +69,7 @@ function App() {
   const updateQuiz = () =>{
     let nextIndex;
     do{
-      nextIndex = Math.floor((Math.random() * Quiz.quiz.length));
+      nextIndex = Math.floor((Math.random() * currentQuizData.length));
     }while(nextIndex === quizIndex);
     if(timeIndex !== 0){
       setQuizIndex(nextIndex);
@@ -55,8 +83,8 @@ function App() {
   }, []);
 
   const handleSkip = () => {
-    const randomAnswer = Quiz.quiz[quizIndex].ansewer[
-      Math.floor(Math.random() * Quiz.quiz[quizIndex].ansewer.length)
+    const randomAnswer = currentQuizData[quizIndex].ansewer[
+      Math.floor(Math.random() * currentQuizData[quizIndex].ansewer.length)
     ];
     setAnswerExample(randomAnswer); 
 
@@ -72,10 +100,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route
-          path="/"
-          element={<Title setTimeIndex={setTimeIndex} />}
-        />
+        <Route path="/" element={<Title />}/>
+        <Route path="/difficulty" element={<Difficulty />}/>
+        <Route path="/time_pick" element={<TimePick setTimeIndex={setTimeIndex} />}/>
         <Route
           path="/quiz"
           element={
@@ -84,8 +111,8 @@ function App() {
               <h1>
                   {timeIndex !== undefined && <Countdown time={timeIndex} onTimeUp={handleTimeUp} />}
                 </h1>
-                <p>{Quiz.quiz[quizIndex].explanation}</p>
-                <h1>{Quiz.quiz[quizIndex].question}</h1>
+                <p>{currentQuizData[quizIndex].explanation}</p>
+                <h1>{currentQuizData[quizIndex].question}</h1>
                 <ul>{result}</ul>
                 <form 
                   className="text-margin-bottom"
@@ -108,7 +135,7 @@ function App() {
                   )}
                 </h2>
                 <button
-                  onClick={handleSkip}{...Quiz.quiz[quizIndex].ansewer}
+                  onClick={handleSkip}
                   disabled={score < 4} 
                 >
                   スキップ (-4点)

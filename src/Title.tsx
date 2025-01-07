@@ -1,31 +1,25 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-type TitleProps = {
-    setTimeIndex: (time: number) => void;
-};
+export const Title = () => {
+    const navigate = useNavigate();
 
-export const Title: React.FC<TitleProps> = ({ setTimeIndex }) => {
-
-    const handleTimeSelect = (time: number) => {
-        setTimeIndex(time);
-        localStorage.setItem('quizTime', time.toString());
-        window.location.href = '/quiz';
+    const handleAction = () => {
+        navigate('/difficulty'); // difficulty画面へ遷移
     };
 
     return (
-        <div className="title gradient-background">
-            <p>
-                <h1>Type EN</h1>
-                <p>以下から制限時間を選択してください</p>
-                <div className="time-buttons">
-                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(30)}>30秒</button>
-                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(60)}>60秒</button>
-                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(120)}>120秒</button>
-                    <br/>
-                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(150)}>150秒</button>
-                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(200)}>200秒</button>
-                </div>
-            </p>
+        <div 
+            className="title gradient-background"
+            tabIndex={0} 
+            onClick={handleAction} 
+            onKeyDown={(e) => { if (e.key === 'Enter') handleAction(); }} 
+            style={{ cursor: 'pointer' }}
+        >
+            <h1>
+                English Typing<br/>
+            </h1>
+            <p>(画面クリックで開始)</p>
         </div>
     );
 };

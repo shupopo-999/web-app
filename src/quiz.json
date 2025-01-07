@@ -306,9 +306,9 @@
         },
         {
             "id" : 51,
-            "explanation" : "和訳せよ",
-            "question" : "practise",
-            "ansewer" : ["練習","れんしゅう","renshuu","rensyuu","rennshuu","rennsyuu","rennshu","rennsyu"]
+            "explanation" : "英訳せよ",
+            "question" : "移動",
+            "ansewer" : ["movement","Movement","move","Move"]
         },
         {
             "id" : 52,
@@ -606,6 +606,12 @@
             "explanation" : "英訳せよ",
             "question" : "母",
             "ansewer" : ["mother","Mother"]
+        },
+        {
+            "id" : 101,
+            "explanation" : "英訳せよ",
+            "question" : "好き",
+            "ansewer" : ["like","Like"]
         }
     ]
 }
