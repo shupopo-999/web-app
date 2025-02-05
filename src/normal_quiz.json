@@ -4,7 +4,8 @@
             "id" : 1,
             "explanation" : "和訳せよ",
             "question" : "message",
-            "ansewer" : ["伝言","でんごん","denngonn","dengon","連絡事項","れんらくじこう","renrakujikou","rennrakujikou"]
+            "ansewer" : ["伝言","でんごん","denngonn","dengon","連絡事項","れんらくじこう","renrakujikou","rennrakujikou","連絡","れんらく",
+            "rennraku","renraku"]
         },
         {
             "id": 11,

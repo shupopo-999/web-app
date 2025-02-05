@@ -10,6 +10,7 @@ import { Result } from './Result';
 import { TimePick } from './time_pick';
 import Difficulty from './difficulty';
 import { Title } from './Title';
+import { Skip } from "./Skip"
 
 function App() {  
   const [inputValue, setInputValue] = useState("");
@@ -88,13 +89,13 @@ function App() {
     ];
     setAnswerExample(randomAnswer); 
 
-    const newScore = score - 4;
+    const newScore = score;
     setScore(newScore);
     localStorage.setItem('quizScore', newScore.toString());
 
     setTimeout(() => {
       updateQuiz();
-    }, 1500);
+    }, 3000);
   }
 
   return (
@@ -108,7 +109,7 @@ function App() {
           element={
             <div className="App gradient-background">
               <p>
-              <h1>
+                <h1>
                   {timeIndex !== undefined && <Countdown time={timeIndex} onTimeUp={handleTimeUp} />}
                 </h1>
                 <p>{currentQuizData[quizIndex].explanation}</p>
@@ -136,9 +137,8 @@ function App() {
                 </h2>
                 <button
                   onClick={handleSkip}
-                  disabled={score < 4} 
                 >
-                  スキップ (-4点)
+                  スキップ
                 </button>
               </p>
             </div>
