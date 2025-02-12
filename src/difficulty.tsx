@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 
-const Difficulty: React.FC = () => {
+export const Difficulty: React.FC = () => {
     const navigate = useNavigate();
     const handleDifficultySelect = (difficulty: string) => {
         localStorage.setItem('quizDifficulty', difficulty);
@@ -19,5 +19,3 @@ const Difficulty: React.FC = () => {
     </div>
   )
 }
-
-export default Difficulty

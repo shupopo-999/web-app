@@ -8,7 +8,7 @@ import Quiz from './Quiz/quiz.json';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import { Result } from './Result';
 import { TimePick } from './time_pick';
-import Difficulty from './difficulty';
+import { Difficulty } from './difficulty';
 import { Title } from './Title';
 import { Skip } from "./Skip"
 
@@ -22,8 +22,6 @@ function App() {
   const [currentQuizData, setCurrentQuizData] = useState(Quiz.quiz);
   const [quizIndex,setQuizIndex] = useState(0);
   const navigate = useNavigate();
-
-  var skip:Boolean = false;
 
   useEffect(() => {
     const savedTime = localStorage.getItem('quizTime');
