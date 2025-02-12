@@ -1,11 +1,11 @@
 import './App.css';
 import React,{ useState, useEffect } from 'react';
 import Countdown from './countdown';
-import Easy from './easy_quiz.json';
-import Normal from './normal_quiz.json';
-import Hard from './hard_quiz.json';
-import Quiz from './quiz.json';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Easy from './Quiz/easy_quiz.json';
+import Normal from './Quiz/normal_quiz.json';
+import Hard from './Quiz/hard_quiz.json';
+import Quiz from './Quiz/quiz.json';
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import { Result } from './Result';
 import { TimePick } from './time_pick';
 import Difficulty from './difficulty';
@@ -21,7 +21,9 @@ function App() {
   const [answerExample, setAnswerExample] = useState<string | null>(null);
   const [currentQuizData, setCurrentQuizData] = useState(Quiz.quiz);
   const [quizIndex,setQuizIndex] = useState(0);
+  const navigate = useNavigate();
 
+  var skip:Boolean = false;
 
   useEffect(() => {
     const savedTime = localStorage.getItem('quizTime');
@@ -89,13 +91,8 @@ function App() {
     ];
     setAnswerExample(randomAnswer); 
 
-    const newScore = score;
-    setScore(newScore);
-    localStorage.setItem('quizScore', newScore.toString());
-
-    setTimeout(() => {
-      updateQuiz();
-    }, 3000);
+    // スキップ画面に遷移
+    navigate("/skip");
   }
 
   return (
@@ -135,13 +132,19 @@ function App() {
                   </p>
                   )}
                 </h2>
-                <button
-                  onClick={handleSkip}
-                >
-                  スキップ
-                </button>
+                <button onClick={handleSkip}>スキップ</button>
               </p>
             </div>
+          }
+        />
+        <Route
+          path="/skip"
+          element={
+            <Skip
+              answerExample={answerExample}
+              updateQuiz={updateQuiz}
+              setAnswerExample={setAnswerExample}
+            />
           }
         />
         <Route 
