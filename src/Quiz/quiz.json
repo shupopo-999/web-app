@@ -1,0 +1,1212 @@
+{
+    "quiz":[
+        {
+          "id" : 1,
+          "explanation" : "和訳せよ",
+          "question" : "message",
+          "ansewer" : ["伝言","でんごん","denngonn","dengon","連絡事項","れんらくじこう","renrakujikou","rennrakujikou","連絡","れんらく",
+            "rennraku","renraku"]
+        },
+        {
+          "id": 2,
+          "explanation" : "和訳せよ",
+          "question": "apple",
+          "ansewer": ["りんご", "リンゴ","rinngo","ringo"]
+        },
+        {
+          "id": 3,
+          "explanation" : "和訳せよ",
+          "question": "consensus",
+          "ansewer": ["一致","いっち","itti", "合意","ごうい","goui"]
+        },
+        {
+          "id": 4,
+          "explanation" : "和訳せよ",
+          "question": "spark",
+          "ansewer": ["火花","ひばな","hibana","きらめき","kiramenki","種火","たねび","tanebi"]
+        },
+        {
+          "id": 5,
+          "explanation" : "和訳せよ",
+          "question": "speak",
+          "ansewer": ["話す","はなす","hanasu","しゃべる","shaberu","言う","いう","iu","言葉","ことば","kotoba"]
+        },
+        {
+          "id": 6,
+          "explanation" : "和訳せよ",
+          "question": "success",
+          "ansewer": ["成功","せいこう","seikou","成果","せいか","seika"]
+        },
+        {
+          "id": 7,
+          "explanation" : "和訳せよ",
+          "question": "decay",
+          "ansewer": ["腐る","くさる","kusaru","朽ちる","くちる","kuchiru","腐敗","ふはい","fuhai"]
+        },
+        {
+          "id": 8,
+          "explanation" : "英訳せよ",
+          "question": "作る",
+          "ansewer": ["make up","Make Up","make","Make","create","Create","build","Build"]
+        },
+        {
+          "id": 9,
+          "explanation" : "英訳せよ",
+          "question": "破壊",
+          "ansewer": ["break","Break","destruction","Destruction","destroy","Destroy"]
+        },
+        {
+          "id": 10,
+          "explanation" : "英訳せよ",
+          "question": "虚数",
+          "ansewer": ["imaginary","Imaginary"]
+        },
+        {
+          "id": 11,
+          "explanation" : "英訳せよ",
+          "question": "価格",
+          "ansewer": ["Price","price","Prices","prices","Value","value"]
+        },
+        {
+          "id": 12,
+          "explanation" : "英訳せよ",
+          "question": "体験する",
+          "ansewer": ["Experience it","experience it"]
+        },
+        {
+          "id": 13,
+          "explanation" : "英訳せよ",
+          "question": "説明",
+          "ansewer": ["Description","description","explanation","Explanation"]
+        },
+        {
+          "id": 14,
+          "explanation" : "英訳せよ",
+          "question": "解説者",
+          "ansewer": ["Commentator","commentator"]
+        },
+        {
+          "id" : 15,
+          "explanation" : "和訳せよ",
+          "question" : "fix",
+          "ansewer" : ["修正する","しゅうせいする","shuuseisuru","shuseisuru","syuuseisuru","syuseisuru","直す","なおす","naosu"]
+        },
+        {
+          "id" : 16,
+          "explanation" : "和訳せよ",
+          "question" : "rise",
+          "ansewer" : ["上昇","じょうしょう","joushou","jousyou","昇る","のぼる","noboru"]
+        },
+        {
+          "id" : 17,
+          "explanation" : "英訳せよ",
+          "question" : "本能",
+          "ansewer" : ["instinct","Instinct"]
+        },
+        {
+          "id" : 18,
+          "explanation" : "英訳せよ",
+          "question" : "巨大な",
+          "ansewer" : ["huge","Huge"]
+        },
+        {
+          "id" : 19,
+          "explanation" : "英訳せよ",
+          "question" : "ごみ",
+          "ansewer" : ["trash","Trash","garbage","Garbage"]
+        },
+        {
+          "id" : 20,
+          "explanation" : "和訳せよ",
+          "question" : "add",
+          "ansewer" : ["追加","ついか","tuika","加える","くわえる","kuwaeru"]
+        },
+        {
+          "id" : 21,
+          "explanation" : "和訳せよ",
+          "question" : "vice",
+          "ansewer" : ["悪","あく","aku","悪徳","あくとく","akutoku","邪悪","じゃあく","jaaku","悪事","あくじ","akuji","akuzi","悪行","あくぎょう","akugyou"]
+        },
+        {
+          "id" : 22,
+          "explanation" : "英訳せよ",
+          "question" : "頂上",
+          "ansewer" : ["summit","Summit"]
+        },
+        {
+          "id" : 23,
+          "explanation" : "英訳せよ",
+          "question" : "借金",
+          "ansewer" : ["debt","Debt"]
+        },
+        {
+            "id" : 24,
+            "explanation" : "英訳せよ",
+            "question" : "費用",
+            "ansewer" : ["cost","Cost"]
+        },
+        {
+            "id" : 25,
+            "explanation" : "英訳せよ",
+            "question" : "出費",
+            "ansewer" : ["disbursements","Disbursements"]
+        },
+        {
+            "id" : 26,
+            "explanation" : "英訳せよ",
+            "question" : "政治",
+            "ansewer" : ["politics","Politics"]
+        },
+        {
+            "id" : 27,
+            "explanation" : "英訳せよ",
+            "question" : "選挙",
+            "ansewer" : ["election","Election"]
+        },
+        {
+            "id" : 28,
+            "explanation" : "英訳せよ",
+            "question" : "何かする",
+            "ansewer" : ["do something","Do Something","do Something","Do something"]
+        },
+        {
+            "id" : 29,
+            "explanation" : "英訳せよ",
+            "question" : "光",
+            "ansewer" : ["light","Light"]
+        },
+        {
+            "id" : 30,
+            "explanation" : "英訳せよ",
+            "question" : "蝶",
+            "ansewer" : ["butterfly","Butterfly"]
+        },
+        {
+            "id" : 31,
+            "explanation" : "英訳せよ",
+            "question" : "石",
+            "ansewer" : ["stone","Stone"]
+        },
+        {
+            "id" : 32,
+            "explanation" : "英訳せよ",
+            "question" : "斧",
+            "ansewer" : ["axe","Axe"]
+        },
+        {
+            "id" : 33,
+            "explanation" : "英訳せよ",
+            "question" : "付与する",
+            "ansewer" : ["Granting","granting"]
+        },
+        {
+            "id" : 34,
+            "explanation" : "英訳せよ",
+            "question" : "連合",
+            "ansewer" : ["union","Union"]
+        },
+        {
+            "id" : 35,
+            "explanation" : "英訳せよ",
+            "question" : "夜明け",
+            "ansewer" : ["dawn","Dawn"]
+        },
+        {
+            "id" : 36,
+            "explanation" : "英訳せよ",
+            "question" : "宗教",
+            "ansewer" : ["religion","Religion"]
+        },
+        {
+            "id" : 37,
+            "explanation" : "和訳せよ",
+            "question" : "fishing",
+            "ansewer" : ["釣り","つり","tsuri","turi","魚釣り","さかなつり","sakanatsuri","sakanaturi"]
+        },
+        {
+            "id" : 38,
+            "explanation" : "英訳せよ",
+            "question" : "更新",
+            "ansewer" : ["Update","update"]
+        },
+        {
+            "id" : 39,
+            "explanation" : "和訳せよ",
+            "question" : "fishing",
+            "ansewer" : ["釣り","つり","tsuri","turi","魚釣り","さかなつり","sakanatsuri","sakanaturi"]
+        },
+        {
+            "id" : 40,
+            "explanation" : "和訳せよ",
+            "question" : "convenient",
+            "ansewer" : ["便利","べんり","bennri","benri","便利な","べんりな","bennrina","benrina",
+            "都合がいい","つごうがいい","tsugougaii","tugougaii","tsugougayoi","tugougayoi","都合のいい"
+            ,"つごうのいい","tsugounoii","tugounoii","tsugounoyoi","tugounoyoi"]
+        },
+        {
+            "id" : 41,
+            "explanation" : "和訳せよ",
+            "question" : "chatting",
+            "ansewer" : ["雑談","ざつだん","zatudann","zatsudann","zatudan","zatsudan","談笑","だんしょう",
+            "dannshou","danshou","dansyou","dannsyou"]
+        },
+        {
+            "id" : 42,
+            "explanation" : "和訳せよ",
+            "question" : "gift",
+            "ansewer" : ["贈り物","おくりもの","okurimono","贈答品","ぞうとうひん","zoutouhin","zoutouhinn"]
+        },
+        {
+            "id" : 43,
+            "explanation" : "和訳せよ",
+            "question" : "the current",
+            "ansewer" : ["現在","げんざい","genzai","gennzai","今","いま","ima"]
+        },
+        {
+            "id" : 44,
+            "explanation" : "和訳せよ",
+            "question" : "movie",
+            "ansewer" : ["映画","えいが","eiga","映像","えいぞう","eizou","動画","どうが","douga"]
+        },
+        {
+            "id" : 45,
+            "explanation" : "英訳せよ",
+            "question" : "愛",
+            "ansewer" : ["love","Love"]
+        },
+        {
+            "id" : 46,
+            "explanation" : "英訳せよ",
+            "question" : "うんち",
+            "ansewer" : ["poop","Poop"]
+        },
+        {
+            "id" : 47,
+            "explanation" : "英訳せよ",
+            "question" : "世界一",
+            "ansewer" : ["world number one","World Number One","World number one",
+            "best in the world","Best in the world","Best In The World"]
+        },
+        {
+            "id" : 48,
+            "explanation" : "和訳せよ",
+            "question" : "translation",
+            "ansewer" : ["翻訳","ほんやく","honnyaku","honyaku","訳文","やくぶん","yakubun","yakubinn"]
+        },
+        {
+            "id" : 49,
+            "explanation" : "和訳せよ",
+            "question" : "最大",
+            "ansewer" : ["largest","Largest","maximum","Maximum"]
+        },
+        {
+            "id" : 50,
+            "explanation" : "英訳せよ",
+            "question" : "命令",
+            "ansewer" : ["order","Order"]
+        },
+        {
+            "id" : 51,
+            "explanation" : "英訳せよ",
+            "question" : "移動",
+            "ansewer" : ["movement","Movement","move","Move"]
+        },
+        {
+            "id" : 52,
+            "explanation" : "英訳せよ",
+            "question" : "practise",
+            "ansewer" : ["練習","れんしゅう","renshuu","rensyuu","rennshuu","rennsyuu","rennshu","rennsyu"]
+        },
+        {
+            "id" : 53,
+            "explanation" : "和訳せよ",
+            "question" : "smallest",
+            "ansewer" : ["最小","さいしょう","最少","saishou","saisho","saisyou","saisyo"]
+        },
+        {
+            "id" : 54,
+            "explanation" : "英訳せよ",
+            "question" : "配信者",
+            "ansewer" : ["streamer","Streamer","distributor","Distributor"]
+        },
+        {
+            "id" : 55,
+            "explanation" : "和訳せよ",
+            "question" : "game",
+            "ansewer" : ["試合","しあい","siai","shiai","競技","きょうぎ","kyougi",
+            "勝負","しょうぶ","shoubu","syoubu"]
+        },
+        {
+            "id" : 56,
+            "explanation" : "英訳せよ",
+            "question" : "時間",
+            "ansewer" : ["time","Time","Hours","hours"]
+        },
+        {
+            "id" : 57,
+            "explanation" : "英訳せよ",
+            "question" : "無料",
+            "ansewer" : ["free","Free"]
+        },
+        {
+            "id" : 58,
+            "explanation" : "和訳せよ",
+            "question" : "give",
+            "ansewer" : ["上げる","あげる","ageru","与える","あたえる","ataeru"]
+        },
+        {
+            "id" : 59,
+            "explanation" : "和訳せよ",
+            "question" : "boss",
+            "ansewer" : ["親分","おやぶん","oyabunn","oyabun","上司","じょうし","joushi","jousi","親玉","おやだま","oyadama"]
+        },
+        {
+            "id" : 60,
+            "explanation" : "英訳せよ",
+            "question" : "ブロック",
+            "ansewer" : ["block","Block"]
+        },
+        {
+            "id" : 61,
+            "explanation" : "英訳せよ",
+            "question" : "パーソナルコンピュータ",
+            "ansewer" : ["personal computer","Personal Computer","Personal computer"]
+        },
+        {
+            "id" : 62,
+            "explanation" : "英訳せよ",
+            "question" : "エンチャント",
+            "ansewer" : ["Enchant","enchant"]
+        },
+        {
+            "id" : 63,
+            "explanation" : "英訳せよ",
+            "question" : "骨",
+            "ansewer" : ["bone","Bone"]
+        },
+        {
+            "id" : 64,
+            "explanation" : "英訳せよ",
+            "question" : "人形",
+            "ansewer" : ["doll","Doll"]
+        },
+        {
+            "id" : 65,
+            "explanation" : "英訳せよ",
+            "question" : "夜",
+            "ansewer" : ["night","Night"]
+        },
+        {
+            "id" : 66,
+            "explanation" : "和訳せよ",
+            "question" : "adventure",
+            "ansewer" : ["冒険","ぼうけん","bouken","boukenn"]
+        },
+        {
+            "id" : 67,
+            "explanation" : "英訳せよ",
+            "question" : "探検する",
+            "ansewer" : ["explore","Explore"]
+        },
+        {
+            "id" : 68,
+            "explanation" : "和訳せよ",
+            "question" : "search",
+            "ansewer" : ["検索","けんさく","kensaku","kennsaku","探す","さがす","sagasu","探索","たんさく","tansaku","tannsaku"]
+        },
+        {
+            "id" : 69,
+            "explanation" : "英訳せよ",
+            "question" : "危険",
+            "ansewer" : ["danger","Danger"]
+        },
+        {
+            "id" : 70,
+            "explanation" : "英訳せよ",
+            "question" : "騎士",
+            "ansewer" : ["knight","Knight"]
+        },
+        {
+            "id" : 71,
+            "explanation" : "英訳せよ",
+            "question" : "1月",
+            "ansewer" : ["January","january"]
+        },
+        {
+            "id" : 72,
+            "explanation" : "英訳せよ",
+            "question" : "2月",
+            "ansewer" : ["february","February"]
+        },
+        {
+            "id" : 73,
+            "explanation" : "英訳せよ",
+            "question" : "3月",
+            "ansewer" : ["march","March"]
+        },
+        {
+            "id" : 74,
+            "explanation" : "英訳せよ",
+            "question" : "4月",
+            "ansewer" : ["april","April"]
+        },
+        {
+            "id" : 75,
+            "explanation" : "英訳せよ",
+            "question" : "5月",
+            "ansewer" : ["may","May"]
+        },
+        {
+            "id" : 76,
+            "explanation" : "英訳せよ",
+            "question" : "6月",
+            "ansewer" : ["june","June"]
+        },
+        {
+            "id" : 77,
+            "explanation" : "英訳せよ",
+            "question" : "7月",
+            "ansewer" : ["july","July"]
+        },
+        {
+            "id" : 78,
+            "explanation" : "英訳せよ",
+            "question" : "8月",
+            "ansewer" : ["august","August"]
+        },
+        {
+            "id" : 79,
+            "explanation" : "英訳せよ",
+            "question" : "9月",
+            "ansewer" : ["september","September"]
+        },
+        {
+            "id" : 80,
+            "explanation" : "英訳せよ",
+            "question" : "10月",
+            "ansewer" : ["october","October"]
+        },
+        {
+            "id" : 81,
+            "explanation" : "英訳せよ",
+            "question" : "11月",
+            "ansewer" : ["november","November"]
+        },
+        {
+            "id" : 82,
+            "explanation" : "英訳せよ",
+            "question" : "12月",
+            "ansewer" : ["december","December"]
+        },
+        {
+            "id" : 83,
+            "explanation" : "英訳せよ",
+            "question" : "1",
+            "ansewer" : ["one","One"]
+        },
+        {
+            "id" : 84,
+            "explanation" : "英訳せよ",
+            "question" : "2",
+            "ansewer" : ["two","Two"]
+        },
+        {
+            "id" : 85,
+            "explanation" : "英訳せよ",
+            "question" : "3",
+            "ansewer" : ["three","Three"]
+        },
+        {
+            "id" : 86,
+            "explanation" : "英訳せよ",
+            "question" : "4",
+            "ansewer" : ["four","Four"]
+        },
+        {
+            "id" : 87,
+            "explanation" : "英訳せよ",
+            "question" : "5",
+            "ansewer" : ["five","Five"]
+        },
+        {
+            "id" : 88,
+            "explanation" : "英訳せよ",
+            "question" : "6",
+            "ansewer" : ["six","Six"]
+        },
+        {
+            "id" : 89,
+            "explanation" : "英訳せよ",
+            "question" : "7",
+            "ansewer" : ["seven","Seven"]
+        },
+        {
+            "id" : 90,
+            "explanation" : "英訳せよ",
+            "question" : "8",
+            "ansewer" : ["eight","Eight"]
+        },
+        {
+            "id" : 91,
+            "explanation" : "英訳せよ",
+            "question" : "9",
+            "ansewer" : ["nine","Nine"]
+        },
+        {
+            "id" : 92,
+            "explanation" : "英訳せよ",
+            "question" : "10",
+            "ansewer" : ["ten","Ten"]
+        },
+        {
+            "id" : 93,
+            "explanation" : "英訳せよ",
+            "question" : "印刷",
+            "ansewer" : ["Printing","printing"]
+        },
+        {
+            "id" : 94,
+            "explanation" : "英訳せよ",
+            "question" : "携帯",
+            "ansewer" : ["cell phone","Cell Phone","Cell phone","cell Phone"]
+        },
+        {
+            "id" : 95,
+            "explanation" : "英訳せよ",
+            "question" : "マウス",
+            "ansewer" : ["mouse","Mouse"]
+        },
+        {
+            "id" : 96,
+            "explanation" : "英訳せよ",
+            "question" : "鍵",
+            "ansewer" : ["key","Key"]
+        },
+        {
+            "id" : 97,
+            "explanation" : "英訳せよ",
+            "question" : "grandmother",
+            "ansewer" : ["おばあさん","obaasann","obaasan","祖母","そぼ","sobo","おばあちゃん",
+            "obaatyann","obaatyan","obaachann","obaachan"]
+        },
+        {
+            "id" : 98,
+            "explanation" : "英訳せよ",
+            "question" : "grandfather",
+            "ansewer" : ["祖父","そふ","sohu","sofu","おじいちゃん","ojiityann","ojiityan","ojiityann","ojiichan",
+            "oziityann","oziityan","oziichann","oziichan","おじいさん","ojiisann","ojiisan","oziisann","oziisan"]
+        },
+        {
+            "id" : 99,
+            "explanation" : "英訳せよ",
+            "question" : "父",
+            "ansewer" : ["father","Father"]
+        },
+        {
+            "id" : 100,
+            "explanation" : "英訳せよ",
+            "question" : "母",
+            "ansewer" : ["mother","Mother"]
+        },
+        {
+            "id" : 101,
+            "explanation" : "英訳せよ",
+            "question" : "好き",
+            "ansewer" : ["like","Like"]
+        },
+        {
+            "id" : 102,
+            "explanation" : "英訳せよ",
+            "question" : "プログラミング",
+            "ansewer" : ["programming","Programming"]
+        },
+        {
+            "id" : 103,
+            "explanation" : "英訳せよ",
+            "question" : "猫",
+            "ansewer" : ["cat","Cat"]
+        },
+        {
+            "id" : 104,
+            "explanation" : "英訳せよ",
+            "question" : "犬",
+            "ansewer" : ["dog","Dog"]
+        },
+        {
+            "id" : 105,
+            "explanation" : "英訳せよ",
+            "question" : "鳥",
+            "ansewer" : ["bird","Bird"]
+        },
+        {
+            "id" : 106,
+            "explanation" : "英訳せよ",
+            "question" : "魚",
+            "ansewer" : ["fish","Fish"]
+        },
+        {
+            "id" : 107,
+            "explanation" : "英訳せよ",
+            "question" : "馬",
+            "ansewer" : ["horse","Horse"]
+        },
+        {
+            "id" : 108,
+            "explanation" : "英訳せよ",
+            "question" : "牛",
+            "ansewer" : ["cow","Cow"]
+        },
+        {
+            "id" : 109,
+            "explanation" : "英訳せよ",
+            "question" : "豚",
+            "ansewer" : ["pig","Pig"]
+        },
+        {
+            "id" : 110,
+            "explanation" : "英訳せよ",
+            "question" : "鶏",
+            "ansewer" : ["chicken","Chicken"]
+        },
+        {
+            "id" : 111,
+            "explanation" : "英訳せよ",
+            "question" : "羊",
+            "ansewer" : ["sheep","Sheep"]
+        },
+        {
+            "id" : 112,
+            "explanation" : "英訳せよ",
+            "question"  : "狼",
+            "ansewer" : ["wolf","Wolf"]
+        },
+        {
+            "id" : 113,
+            "explanation" : "英訳せよ",
+            "question" : "熊",
+            "ansewer" : ["bear","Bear"]
+        },
+        {
+            "id" : 114,
+            "explanation" : "和訳せよ",
+            "question"  : "Language",
+            "ansewer" : ["げんご","言語","genngo","gengo","ことば","言葉","kotoba"]
+        },
+        {
+            "id" : 115,
+            "explanation" : "和訳せよ",
+            "question"  : "Computer",
+            "ansewer" : ["コンピュータ","パソコン","Personal Computer","personal computer","パーソナルコンピュータ"]
+        },
+        {
+            "id" : 116,
+            "explanation" : "和訳せよ",
+            "question"  : "Internet",
+            "ansewer" : ["インターネット","ネット","ネットワーク","ネット回線","ネット接続","ネット環境","ネットワーク環境"]
+        },
+        {
+            "id" : 117,
+            "explanation" : "和訳せよ",
+            "question"  : "Japan",
+            "ansewer" : ["日本","にほん","nihon","日本国","にほんこく","nihonkoku","日本の国","にほんのくに","nihonnokuni"]
+        },
+        {
+            "id" : 118,
+            "explanation" : "和訳せよ",
+            "question"  : "Music",
+            "ansewer" : ["音楽","おんがく","ongaku","ongakku","おんがっく"]
+        },
+        {
+            "id" : 119,
+            "explanation" : "和訳せよ",
+            "question"  : "Movie",
+            "ansewer" : ["映画","えいが","eiga","映像","えいぞう","eizou","動画","どうが","douga"]
+        },
+        {
+            "id" : 120,
+            "explanation" : "和訳せよ",
+            "question"  : "Book",
+            "ansewer" : ["本","ほん","hon","書籍","しょせき","shoseki","しょさく","shosaku","書物","しょもつ","shomotsu"]
+        },
+        {
+            "id" : 121,
+            "explanation" : "和訳せよ", 
+            "question"  : "Food",
+            "ansewer" : ["食べ物","たべもの","tabemono","食物","しょくもつ","shokumotsu","食料","しょくりょう","shokuryou"]
+        },
+        {
+            "id" : 122,
+            "explanation" : "和訳せよ",
+            "question"  : "Drink",
+            "ansewer" : ["飲み物","のみもの","nomimono","飲料","いんりょう","inryou","飲料水","いんりょうすい","inryousui"]
+        },
+        {
+            "id" : 123,
+            "explanation" : "和訳せよ",
+            "question"  : "Water",
+            "ansewer" : ["水","みず","mizu","水分","すいぶん","suibun","水道","すいどう","suidou"]
+        },
+        {
+            "id" : 124,
+            "explanation" : "和訳せよ",
+            "question"  : "Fire",
+            "ansewer" : ["火","ひ","hi","火事","かじ","kaji","火災","かさい","kasai"]
+        },
+        {
+            "id" : 125,
+            "explanation" : "和訳せよ",
+            "question"  : "Earth",
+            "ansewer" : ["地球","ちきゅう","chikyuu","地球上","ちきゅうじょう","chikyuuzyou","地球の上","ちきゅうのうえ","chikyuunoue"]
+        },
+        {
+            "id" : 126,
+            "explanation" : "和訳せよ",
+            "question"  : "Sky",
+            "ansewer" : ["空","そら","sora","空気","くうき","kuuki","空間","くうかん","kuukan"]
+        },
+        {
+            "id" : 127,
+            "explanation" : "和訳せよ",
+            "question"  : "Sun",
+            "ansewer" : ["太陽","たいよう","taiyou","日","ひ","hi","日光","にっこう","nikkou"]
+        },
+        {
+            "id" : 128,
+            "explanation" : "和訳せよ",
+            "question"  : "Moon",
+            "ansewer" : ["月","つき","tsuki","月光","げっこう","gekkou","月の光","つきのひかり","tsukinohikari"]
+        },
+        {
+            "id" : 129,
+            "explanation" : "和訳せよ",
+            "question"  : "Star",
+            "ansewer" : ["星","ほし","hosi","星座","せいざ","seiza","星空","ほしぞら","hoshizora"]
+        },
+        {
+            "id" : 130,
+            "explanation" : "和訳せよ",
+            "question"  : "Wind",
+            "ansewer" : ["風","かぜ","kaze","風力","ふうりょく","fuuryoku","風の力","かぜのちから","kazenochikara"]
+        },
+        {
+            "id" : 131,
+            "explanation" : "和訳せよ",
+            "question"  : "Rain",
+            "ansewer" : ["雨","あめ","ame","雨水","うすい","usui","雨の日","あめのひ","amenohi"]
+        },
+        {
+            "id" : 132,
+            "explanation" : "和訳せよ",
+            "question"  : "Snow",
+            "ansewer" : ["雪","ゆき","yuki","雪の日","ゆきのひ","yukinohi","雪だるま","ゆきだるま","yukidaruma"]
+        },
+        {
+            "id" : 133,
+            "explanation" : "和訳せよ",
+            "question"  : "Cloud",
+            "ansewer" : ["雲","くも","kumo","雲の上","くものうえ","kumonoue","雲の下","くものした","kumonoshita"]
+        },
+        {
+            "id" : 134,
+            "explanation" : "和訳せよ",
+            "question"  : "Mountain",
+            "ansewer" : ["山","やま","yama","山の上","やまのうえ","yamanoue","山の下","やまのした","yamanoshita"]
+        },
+        {
+            "id" : 135,
+            "explanation" : "和訳せよ",
+            "question"  : "River",
+            "ansewer" : ["川","かわ","kawa","川の上","かわのうえ","kawanoue","川の下","かわのした","kawanoshita"]
+        },
+        {
+            "id" : 136,
+            "explanation" : "和訳せよ",
+            "question"  : "Sea",
+            "ansewer" : ["海","うみ","umi","海の上","うみのうえ","uminoue","海の下","うみのした","uminoshita"]
+        },
+        {
+            "id" : 137,
+            "explanation" : "和訳せよ",
+            "question"  : "Ocean",
+            "ansewer" : ["海洋","かいよう","kaiyou","海洋学","かいようがく","kaiyougaku","海洋生物","かいようせいぶつ","kaiyouseibutsu"]
+        },
+        {
+            "id" : 138,
+            "explanation" : "和訳せよ",
+            "question"  : "Forest",
+            "ansewer" : ["森","もり","mori","森林","しんりん","shinrin","森の中","もりのなか","morinonaka"]
+        },
+        {
+            "id" : 139,
+            "explanation" : "和訳せよ",
+            "question"  : "Flower",
+            "ansewer" : ["花","はな","hana","花束","はなたば","hanataba","花の束","はなのたば","hananotaba"]
+        },
+        {
+            "id" : 140,
+            "explanation" : "和訳せよ",
+            "question"  : "Tree",
+            "ansewer" : ["木","き","ki","木の上","きのうえ","kinoue","木の下","きのした","kinoshita"]
+        },
+        {
+            "id" : 141,
+            "explanation" : "和訳せよ",
+            "question"  : "Grass",
+            "ansewer" : ["草","くさ","kusa","草原","そうげん","sougen","草の上","くさのうえ","kusanoue"]
+        },
+        {
+            "id" : 142,
+            "explanation" : "和訳せよ",
+            "question"  : "Earthquake",
+            "ansewer" : ["地震","じしん","jishin","地震の揺れ","じしんのゆれ","jishinnoyure"]
+        },
+        {
+            "id" : 143,
+            "explanation" : "和訳せよ",
+            "question"  : "Typhoon",
+            "ansewer" : ["台風","たいふう","taifuu","台風の接近","たいふうのせっきん","taifuunosetsukinn"]
+        },
+        {
+            "id" : 144,
+            "explanation" : "和訳せよ",
+            "question"  : "Tsunami",
+            "ansewer" : ["津波","つなみ","tsunami","津波の襲来","つなみのしゅうらい","tsunaminoshuurai"]
+        },
+        {
+            "id" : 145,
+            "explanation" : "和訳せよ",
+            "question"  : "Volcano",
+            "ansewer" : ["火山","かざん","kazan","火山の噴火","かざんのふんか","kazannofunka"]
+        },
+        {
+            "id" : 146,
+            "explanation" : "和訳せよ",
+            "question"  : "Meteorite",
+            "ansewer" : ["隕石","いんせき","inseki","隕石の落下","いんせきのらっか","insekinorakka"]
+        },
+        {
+            "id" : 147,
+            "explanation" : "和訳せよ",
+            "question"  : "Asteroid",
+            "ansewer" : ["小惑星","しょうわくせい","shouwakusei","小惑星の衝突","しょうわくせいのしょうとつ","shouwakuseinoshoutotsu"]
+        },
+        {
+            "id" : 148,
+            "explanation" : "和訳せよ",
+            "question"  : "Galaxy",
+            "ansewer" : ["銀河","ぎんが","ginga","銀河系","ぎんがけい","gingakei","銀河の中心","ぎんがのちゅうしん","ginganochuushin"]
+        },
+        {
+            "id" : 149,
+            "explanation" : "和訳せよ",
+            "question"  : "Universe",
+            "ansewer" : ["宇宙","うちゅう","uchuu","宇宙の果て","うちゅうのはて","uchuunohate","宇宙の始まり","うちゅうのはじまり","uchuunohajimari"]
+        },
+        {
+            "id" : 150,
+            "explanation" : "和訳せよ",
+            "question"  : "Alien",
+            "ansewer" : ["宇宙人","うちゅうじん","uchuujinn","エイリアン","eirian","異星人","いせいじん","iseijinn"]
+        },
+        {
+            "id" : 151,
+            "explanation" : "和訳せよ",
+            "question"  : "Space",
+            "ansewer" : ["宇宙","うちゅう","uchuu","宇宙空間","うちゅうくうかん","uchuukuukan","宇宙船","うちゅうせん","uchuusenn"]
+        },
+        {
+            "id" : 152,
+            "explanation" : "和訳せよ",
+            "question"  : "Rocket",
+            "ansewer" : ["ロケット","rocket","宇宙ロケット","うちゅうロケット","uchuuroketto"]
+        },
+        {
+            "id" : 153,
+            "explanation" : "和訳せよ",
+            "question"  : "Satellite",
+            "ansewer" : ["衛星","えいせい","eisei","人工衛星","じんこうえいせい","jinkoueisei","通信衛星","つうしんえいせい","tsuushineisei"]
+        },
+        {
+            "id" : 154,
+            "explanation" : "和訳せよ",
+            "question"  : "Astronaut",
+            "ansewer" : ["宇宙飛行士","うちゅうひこうし","uchuuhikoushi","宇宙飛行士の宇宙飛行","うちゅうひこうしのうちゅうひこう","uchuuhikoushinouchuuhikou"]
+        },
+        {
+            "id" : 155,
+            "explanation" : "和訳せよ",
+            "question"  : "Planet",
+            "ansewer" : ["惑星","わくせい","wakusei","惑星の周り","わくせいのまわり","wakuseinomawari","惑星の軌道","わくせいのきどう","wakuseinokidou"]
+        },
+        {
+            "id" : 156,
+            "explanation" : "和訳せよ",
+            "question"  : "Sun",
+            "ansewer" : ["太陽","たいよう","taiyou","太陽系","たいようけい","taiyoukei","太陽系の惑星","たいようけいのわくせい","taiyoukeinowakusei"]
+        },
+        {
+            "id" : 157,
+            "explanation" : "和訳せよ",
+            "question"  : "Moon",
+            "ansewer" : ["月","つき","tsuki","月の裏側","つきのうらがわ","tsukinouragawa","月の表側","つきのおもてがわ","tsukinoomotegawa"]
+        },
+        {
+            "id" : 158,
+            "explanation" : "和訳せよ",
+            "question"  : "Star",
+            "ansewer" : ["星","ほし","hosi","星座","せいざ","seiza","星の光","ほしのひかり","hoshinohikari"]
+        },
+        {
+            "id" : 159,
+            "explanation" : "和訳せよ",
+            "question"  : "Life form",
+            "ansewer" : ["生命体","せいめいたい","seimeitai","生物","せいぶつ","seibutsu","生き物","いきもの","ikimono"]
+        },
+        {
+            "id" : 160,
+            "explanation" : "和訳せよ",
+            "question"  : "astral",
+            "ansewer" : ["星の","ほしの","hoshino","星座の","せいざの","seizano","星座の","せいざの","seizano"]
+        },
+        {
+            "id" : 161,
+            "explanation" : "英訳せよ",
+            "question"  : "火星",
+            "ansewer" : ["Mars","mars"]
+        },
+        {
+            "id" : 162,
+            "explanation" : "英訳せよ",
+            "question"  : "金星",
+            "ansewer" : ["Venus","venus"]
+        },
+        {
+            "id" : 163,
+            "explanation" : "英訳せよ",
+            "question"  : "水星",
+            "ansewer" : ["Mercury","mercury"]
+        },
+        {
+            "id" : 164,
+            "explanation" : "英訳せよ",
+            "question"  : "木星",
+            "ansewer" : ["Jupiter","jupiter"]
+        },
+        {
+            "id" : 165,
+            "explanation" : "英訳せよ",
+            "question"  : "土星",
+            "ansewer" : ["Saturn","saturn"]
+        },
+        {
+            "id" : 166,
+            "explanation" : "英訳せよ",
+            "question"  : "天王星",
+            "ansewer" : ["Uranus","uranus"]
+        },
+        {
+            "id" : 167,
+            "explanation" : "英訳せよ",
+            "question"  : "海王星",
+            "ansewer" : ["Neptune","neptune"]
+        },
+        {
+            "id" : 168,
+            "explanation" : "英訳せよ",
+            "question"  : "冥王星",
+            "ansewer" : ["Pluto","pluto"]
+        },
+        {
+            "id" : 169,
+            "explanation" : "英訳せよ",
+            "question"  : "太陽系",
+            "ansewer" : ["Solar System","solar system"]
+        },
+        {
+            "id" : 170,
+            "explanation" : "英訳せよ",
+            "question"  : "銀河系",
+            "ansewer" : ["Milky Way","milky way"]
+        },
+        {
+            "id" : 171,
+            "explanation" : "英訳せよ",
+            "question"  : "人工衛星",
+            "ansewer" : ["Artificial Satellite","artificial satellite"]
+        },
+        {
+            "id" : 172,
+            "explanation" : "英訳せよ",
+            "question"  : "宇宙空間",
+            "ansewer" : ["Outer Space","outer space"]
+        },
+        {
+            "id" : 173,
+            "explanation" : "英訳せよ",
+            "question"  : "宇宙船",
+            "ansewer" : ["Spaceship","spaceship"]
+        },
+        {
+            "id" : 174,
+            "explanation" : "英訳せよ",
+            "question"  : "宇宙飛行士",
+            "ansewer" : ["Astronaut","astronaut"]
+        },
+        {
+            "id" : 175,
+            "explanation" : "英訳せよ",
+            "question"  : "衛星",
+            "ansewer" : ["Satellite","satellite"]
+        },
+        {
+            "id" : 176,
+            "explanation" : "英訳せよ",
+            "question"  : "隕石",
+            "ansewer" : ["Meteorite","meteorite"]
+        },
+        {
+            "id" : 177,
+            "explanation" : "英訳せよ",
+            "question"  : "小惑星",
+            "ansewer" : ["Asteroid","asteroid"]
+        },
+        {
+            "id" : 178,
+            "explanation" : "英訳せよ",
+            "question"  : "生物",
+            "ansewer" : ["Life form","life form"]
+        },
+        {
+            "id" : 179,
+            "explanation" : "英訳せよ",
+            "question"  : "宇宙の果て",
+            "ansewer" : ["Edge of the Universe","edge of the universe"]
+        },
+        {
+            "id" : 180,
+            "explanation" : "英訳せよ",
+            "question"  : "宇宙の始まり",
+            "ansewer" : ["Beginning of the Universe","beginning of the universe"]
+        },
+        {
+            "id" : 181,
+            "explanation" : "英訳せよ",
+            "question"  : "宇宙の中心",
+            "ansewer" : ["Center of the Universe","center of the universe"]
+        },
+        {
+            "id" : 182,
+            "explanation" : "英訳せよ",
+            "question"  : "科学",
+            "ansewer" : ["Science","science"]
+        },
+        {
+            "id" : 183,
+            "explanation" : "英訳せよ",
+            "question"  : "物理学",
+            "ansewer" : ["Physics","physics"]
+        },
+        {
+            "id" : 184,
+            "explanation" : "英訳せよ",
+            "question"  : "化学",
+            "ansewer" : ["Chemistry","chemistry"]
+        },
+        {
+            "id" : 185,
+            "explanation" : "英訳せよ",
+            "question"  : "生物学",
+            "ansewer" : ["Biology","biology"]
+        },
+        {
+            "id" : 186,
+            "explanation" : "英訳せよ",
+            "question"  : "地学",
+            "ansewer" : ["Geology","geology"]
+        },
+        {
+            "id" : 187,
+            "explanation" : "英訳せよ",
+            "question"  : "天文学",
+            "ansewer" : ["Astronomy","astronomy"]
+        },
+        {
+            "id" : 188,
+            "explanation" : "英訳せよ",
+            "question"  : "数学",
+            "ansewer" : ["Mathematics","mathematics"]
+        },
+        {
+            "id" : 189,
+            "explanation" : "英訳せよ",
+            "question"  : "地理学",
+            "ansewer" : ["Geography","geography"]
+        },
+        {
+            "id" : 190,
+            "explanation" : "英訳せよ",
+            "question"  : "歴史学",
+            "ansewer" : ["History","history"]
+        },
+        {
+            "id" : 191,
+            "explanation" : "英訳せよ",
+            "question"  : "経済学",
+            "ansewer" : ["Economics","economics"]
+        },
+        {
+            "id" : 192,
+            "explanation" : "英訳せよ",
+            "question"  : "政治学",
+            "ansewer" : ["Political Science","political science"]
+        },
+        {
+            "id" : 193,
+            "explanation" : "英訳せよ",
+            "question"  : "心理学",
+            "ansewer" : ["Psychology","psychology"]
+        },
+        {
+            "id" : 194,
+            "explanation" : "英訳せよ",
+            "question"  : "実験",
+            "ansewer" : ["Experiment","experiment"]
+        },
+        {
+            "id" : 195,
+            "explanation" : "英訳せよ",
+            "question"  : "研究",
+            "ansewer" : ["Research","research"]
+        },
+        {
+            "id" : 196,
+            "explanation" : "英訳せよ",
+            "question"  : "発見",
+            "ansewer" : ["Discovery","discovery"]
+        },
+        {
+            "id" : 197,
+            "explanation" : "英訳せよ",
+            "question"  : "発明",
+            "ansewer" : ["Invention","invention"]
+        },
+        {
+            "id" : 198,
+            "explanation" : "英訳せよ",
+            "question"  : "発表",
+            "ansewer" : ["Presentation","presentation"]
+        },
+        {
+            "id" : 199,
+            "explanation" : "英訳せよ",
+            "question"  : "論文",
+            "ansewer" : ["Thesis","thesis"]
+        },
+        {
+            "id" : 200,
+            "explanation" : "英訳せよ",
+            "question"  : "学位",
+            "ansewer" : ["Degree","degree"]
+        }
+    ]
+}

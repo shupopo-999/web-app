@@ -259,6 +259,138 @@
             "explanation" : "英訳せよ",
             "question" : "光",
             "ansewer" : ["light","Light"]
+        },
+        {
+            "id" : 102,
+            "explanation" : "英訳せよ",
+            "question" : "プログラミング",
+            "ansewer" : ["programming","Programming"]
+        },
+        {
+            "id" : 130,
+            "explanation" : "和訳せよ",
+            "question"  : "Wind",
+            "ansewer" : ["風","かぜ","kaze","風力","ふうりょく","fuuryoku","風の力","かぜのちから","kazenochikara"]
+        },
+        {
+            "id" : 131,
+            "explanation" : "和訳せよ",
+            "question"  : "Rain",
+            "ansewer" : ["雨","あめ","ame","雨水","うすい","usui","雨の日","あめのひ","amenohi"]
+        },
+        {
+            "id" : 137,
+            "explanation" : "和訳せよ",
+            "question"  : "Ocean",
+            "ansewer" : ["海洋","かいよう","kaiyou","海洋学","かいようがく","kaiyougaku","海洋生物","かいようせいぶつ","kaiyouseibutsu"]
+        },
+        {
+            "id" : 138,
+            "explanation" : "和訳せよ",
+            "question"  : "Forest",
+            "ansewer" : ["森","もり","mori","森林","しんりん","shinrin","森の中","もりのなか","morinonaka"]
+        },
+        {
+            "id" : 139,
+            "explanation" : "和訳せよ",
+            "question"  : "Flower",
+            "ansewer" : ["花","はな","hana","花束","はなたば","hanataba","花の束","はなのたば","hananotaba"]
+        },
+        {
+            "id" : 149,
+            "explanation" : "和訳せよ",
+            "question"  : "Universe",
+            "ansewer" : ["宇宙","うちゅう","uchuu","宇宙の果て","うちゅうのはて","uchuunohate","宇宙の始まり","うちゅうのはじまり","uchuunohajimari"]
+        },
+        {
+            "id" : 150,
+            "explanation" : "和訳せよ",
+            "question"  : "Alien",
+            "ansewer" : ["宇宙人","うちゅうじん","uchuujinn","エイリアン","eirian","異星人","いせいじん","iseijinn"]
+        },
+        {
+            "id" : 161,
+            "explanation" : "英訳せよ",
+            "question"  : "火星",
+            "ansewer" : ["Mars","mars"]
+        },
+        {
+            "id" : 162,
+            "explanation" : "英訳せよ",
+            "question"  : "金星",
+            "ansewer" : ["Venus","venus"]
+        },
+        {
+            "id" : 163,
+            "explanation" : "英訳せよ",
+            "question"  : "水星",
+            "ansewer" : ["Mercury","mercury"]
+        },
+        {
+            "id" : 164,
+            "explanation" : "英訳せよ",
+            "question"  : "木星",
+            "ansewer" : ["Jupiter","jupiter"]
+        },
+        {
+            "id" : 165,
+            "explanation" : "英訳せよ",
+            "question"  : "土星",
+            "ansewer" : ["Saturn","saturn"]
+        },
+        {
+            "id" : 178,
+            "explanation" : "英訳せよ",
+            "question"  : "生物",
+            "ansewer" : ["Life form","life form"]
+        },
+        {
+            "id" : 182,
+            "explanation" : "英訳せよ",
+            "question"  : "科学",
+            "ansewer" : ["Science","science"]
+        },
+        {
+            "id" : 183,
+            "explanation" : "英訳せよ",
+            "question"  : "物理学",
+            "ansewer" : ["Physics","physics"]
+        },
+        {
+            "id" : 184,
+            "explanation" : "英訳せよ",
+            "question"  : "化学",
+            "ansewer" : ["Chemistry","chemistry"]
+        },
+        {
+            "id" : 185,
+            "explanation" : "英訳せよ",
+            "question"  : "生物学",
+            "ansewer" : ["Biology","biology"]
+        },
+        {
+            "id" : 188,
+            "explanation" : "英訳せよ",
+            "question"  : "数学",
+            "ansewer" : ["Mathematics","mathematics"]
+        },
+        {
+            "id" : 198,
+            "explanation" : "英訳せよ",
+            "question"  : "発表",
+            "ansewer" : ["Presentation","presentation"]
+        },
+        {
+            "id" : 199,
+            "explanation" : "英訳せよ",
+            "question"  : "論文",
+            "ansewer" : ["Thesis","thesis"]
+        },
+        {
+            "id" : 200,
+            "explanation" : "英訳せよ",
+            "question"  : "学位",
+            "ansewer" : ["Degree","degree"]
         }
     ]
 }

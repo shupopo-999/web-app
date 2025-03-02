@@ -1,10 +1,10 @@
 import './App.css';
 import React,{ useState, useEffect } from 'react';
 import Countdown from './countdown';
-import Easy from './easy_quiz.json';
-import Normal from './normal_quiz.json';
-import Hard from './hard_quiz.json';
-import Quiz from './quiz.json';
+import Easy from './Quiz/easy_quiz.json';
+import Normal from './Quiz/normal_quiz.json';
+import Hard from './Quiz/hard_quiz.json';
+import Quiz from './Quiz/quiz.json';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Result } from './Result';
 import { TimePick } from './time_pick';
