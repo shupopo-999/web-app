@@ -88,7 +88,7 @@ function App() {
     ];
     setAnswerExample(randomAnswer); 
 
-    const newScore = score - 4;
+    const newScore = score;
     setScore(newScore);
     localStorage.setItem('quizScore', newScore.toString());
 
@@ -136,9 +136,8 @@ function App() {
                 </h2>
                 <button
                   onClick={handleSkip}
-                  disabled={score < 4} 
                 >
-                  スキップ (-4点)
+                  スキップ
                 </button>
               </p>
             </div>
