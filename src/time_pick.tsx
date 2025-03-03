@@ -17,12 +17,12 @@ export const TimePick: React.FC<TimeProps> = ({ setTimeIndex }) => {
             <p>
                 <h1>制限時間を選択</h1>
                 <div className="time-buttons">
-                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(30)}>30秒</button>
-                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(60)}>60秒</button>
-                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(120)}>120秒</button>
+                    <button className="button text-margin-left text-margin-top" onClick={() => handleTimeSelect(30)}>30秒</button>
+                    <button className="button text-margin-left text-margin-top" onClick={() => handleTimeSelect(60)}>60秒</button>
+                    <button className="button text-margin-left text-margin-top" onClick={() => handleTimeSelect(120)}>120秒</button>
                     <br/>
-                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(150)}>150秒</button>
-                    <button className="text-margin-left text-margin-top" onClick={() => handleTimeSelect(200)}>200秒</button>
+                    <button className="button text-margin-left text-margin-top" onClick={() => handleTimeSelect(150)}>150秒</button>
+                    <button className="button text-margin-left text-margin-top" onClick={() => handleTimeSelect(200)}>200秒</button>
                 </div>
             </p>
         </div>

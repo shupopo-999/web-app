@@ -33,10 +33,10 @@ export const Result: React.FC<ResultProps> = () => {
       <p>
         <h1>結果発表</h1>
         <p>スコア: {score} 点</p>
-        <button className="text-margin-left" onClick={() => handleNavigate('/')}>タイトルに戻る</button>
-        <button className="text-margin-left" onClick={() => handleNavigate('/difficulty')}>難易度選択に戻る</button>
-        <button className="text-margin-left" onClick={() => handleNavigate('/time_pick')}>制限時間選択に戻る</button>
-        <button className="text-margin-left" onClick={handleReplay}>リプレイ</button>
+        <button className="button text-margin-left" onClick={() => handleNavigate('/')}>タイトルに戻る</button>
+        <button className="button text-margin-left" onClick={() => handleNavigate('/difficulty')}>難易度選択に戻る</button>
+        <button className="button text-margin-left" onClick={() => handleNavigate('/time_pick')}>制限時間選択に戻る</button>
+        <button className="button text-margin-left" onClick={handleReplay}>リプレイ</button>
       </p>
     </div>
   );

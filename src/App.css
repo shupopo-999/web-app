@@ -32,6 +32,67 @@
   margin-left: 30px;
 }
 
+.submitButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+
+  .submitButton {
+    width: 120px;
+    height: 36px;
+    border-radius: 18px;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+    transition: all 0.3s ease-in-out;
+
+    &.idle {
+      background-color: white;
+      border: 2px solid coral;
+      cursor: pointer;
+
+      &:hover {
+        background-color: coral;
+        color: white;
+      }
+    }
+
+    &.sending {
+      width: 36px;
+      background-color: white;
+      cursor: default;
+      border: 3px solid lightgray;
+      border-top-color: coral;
+      animation: spin 0.5s 0.25s linear infinite;
+    }
+
+    &.success {
+      background-color: coral;
+      border: 2px solid coral;
+
+      &:after {
+        font-family: "Font Awesome 5 Free", sans-serif;
+        content: "\f00c";
+        font-weight: 900;
+        color: white;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
 /* グラデーション背景のスタイル */
 .gradient-background {
   background: linear-gradient(135deg, #f86267 0%, #e9f862 10%, hsl(125, 100%, 72%) 20%, #62f8ad 30%, #62f3f8 40%, #5993ff 50%,
@@ -80,7 +141,7 @@
 }
 
 /* ボタンの角を丸くする */
-button {
+.button {
   border-radius: 8px; /* 角の丸みを設定 */
   padding: 10px 20px; /* ボタンの内側余白を調整 */
   border: none; /* ボタンの枠線を消す */
@@ -89,7 +150,7 @@ button {
 }
 
 /* ボタンにホバー時のエフェクトを追加 */
-button:hover {
+.button:hover {
   background-color: rgba(255, 255, 255, 0.2); /* ホバー時の背景色を少し変更 */
 }
 

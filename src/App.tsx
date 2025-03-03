@@ -11,6 +11,12 @@ import { TimePick } from './time_pick';
 import Difficulty from './difficulty';
 import { Title } from './Title';
 
+
+export const ChildComponent = () => {
+  
+};
+  
+
 function App() {  
   const [inputValue, setInputValue] = useState("");
   const [result, setResult] = useState("");
@@ -20,6 +26,7 @@ function App() {
   const [answerExample, setAnswerExample] = useState<string | null>(null);
   const [currentQuizData, setCurrentQuizData] = useState(Quiz.quiz);
   const [quizIndex,setQuizIndex] = useState(0);
+  const [status, setStatus] = useState<"idle" | "sending" | "success">("idle");
 
 
   useEffect(() => {
@@ -97,6 +104,19 @@ function App() {
     }, 1500);
   }
 
+  const clickAction = () => {
+    if (status !== "idle") return;
+
+    setStatus("sending");
+    setTimeout(() => {
+      setStatus("success");
+      handleSkip();
+      setTimeout(() => {
+        setStatus("idle");
+      }, 1000);
+    }, 1000);
+  };
+
   return (
     <Router>
       <Routes>
@@ -134,11 +154,11 @@ function App() {
                   </p>
                   )}
                 </h2>
-                <button
-                  onClick={handleSkip}
-                >
-                  スキップ
-                </button>
+                <div className="submitButtonContainer">
+                  <button className={`submitButton ${status}`} onClick={clickAction}>
+                    {status === "idle" ? "スキップ" : <></>}
+                  </button>
+                </div>
               </p>
             </div>
           }
